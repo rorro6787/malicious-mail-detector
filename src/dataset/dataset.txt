@@ -1,0 +1,889 @@
+[
+    { 
+        "question": "Subject: Project Alpha Status Update Hi Team, I wanted to give you a quick update on Project Alpha. We’ve completed the first phase and are currently on track with the second phase. I’ll be sending out a detailed report by Friday. If you have any questions or need additional information, please let me know. Best, Sarah", 
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Reminder: Marketing Meeting Tomorrow Hello Everyone, Just a quick reminder that we have our marketing strategy meeting scheduled for tomorrow at 10 AM in Conference Room B. Please bring your updated reports and be prepared to discuss the new campaign ideas. Thanks, John", 
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Join Us for Our Webinar on Cybersecurity Trends\nHi All,\n\nWe’re hosting a webinar on the latest trends in cybersecurity on September 10th at 2 PM. Don’t miss out on this opportunity to learn from industry experts. Register here: https://example.com/webinar-registration\nBest, Anna",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Vacation Request: October 5-12\nDear Emily,\n\nI would like to request vacation time from October 5th to October 12th. I’ll make sure to hand off all my projects before I leave. Please let me know if this is approved or if there are any concerns.\nThank you, Michael",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Request for Feedback on Recent Presentation\nHi David,\n\nI hope you're doing well. I'd appreciate any feedback you could provide on the presentation I gave last week. Your insights would be really valuable for improving future presentations.\nBest regards, Lisa",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Important: New Remote Work Policy\nDear Team,\n\nWe've updated our remote work policy effective next month. Please review the new guidelines here: https://example.com/remote-policy. Let me know if you have any questions or concerns.\nThank you, Karen",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Follow-Up on Application for Marketing Specialist Role\nHi Jessica,\n\nI hope you’re doing well. I’m following up on my application for the Marketing Specialist position. I’m very excited about the opportunity and would love to discuss how my skills align with the role.\nBest, Tom",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Invitation: Office Holiday Party on December 15\nHello Team,\n\nWe’re excited to invite you to our office holiday party on December 15th at 6 PM. There will be food, drinks, and fun activities. Please RSVP by December 1st. Hope to see you all there!\nCheers, Rachel",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Introducing Our New Product Line!\nHi Everyone,\n\nWe’re thrilled to announce the launch of our new product line. Check out the details and features here: https://example.com/new-products. We’re excited to hear your feedback and hope you’re as excited as we are!\nBest, James",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Technical Support Needed for Software Issue\nHi Support Team,\n\nI’m experiencing issues with the latest software update. It crashes every time I try to save a file. Can someone please assist with this problem? Any help would be greatly appreciated.\n\nThanks, Emily",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Exciting News: I’m Getting Married!\nHi Friends,\n\nI have some exciting news to share—I’m getting married on November 5th! I would love for you all to be a part of the celebration. More details will follow soon.\n\nBest, Sophie",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Follow-Up on Your Recent Inquiry\nDear Customer,\n\nThank you for contacting our support team. I wanted to follow up on your recent inquiry about the product issue. Please let us know if the solution provided was helpful or if you need further assistance.\n\nSincerely, Helen",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Confirmation for Seminar Attendance\nHello Mark,\n\nThis is to confirm your registration for the seminar on Advanced Analytics scheduled for September 20th. We look forward to your participation and hope you find the session valuable.\n\nBest regards, Laura",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Collaboration Opportunity: Upcoming Project\nHi Team,\n\nWe have an exciting new project on the horizon and would like to form a cross-departmental team to tackle it. If you’re interested in participating, please let me know by the end of this week.\n\nThanks, Nina",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Volunteer for Community Clean-Up Event\nHi All,\n\nWe’re organizing a community clean-up event on October 8th and would love for you to join us. It’s a great way to give back to our community. Sign up here: https://example.com/community-cleanup\n\nBest, Tom",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Expense Reimbursement for Business Trip\nDear Finance Team,\n\nI’ve attached the receipts and documentation for my recent business trip expenses. Please process the reimbursement at your earliest convenience. Let me know if you need any additional information.\n\nThank you, Nancy",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Request for Feedback on Our Latest App Update\nHi Team,\n\nWe recently updated our app with several new features. We’d love to get your feedback on the changes. Please share your thoughts here: https://example.com/app-feedback\n\nBest, Alex",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Great to Meet You at the Conference!\nHi Sarah,\n\nIt was great meeting you at the conference last week. I enjoyed our conversation about marketing trends and would love to stay in touch. Let’s connect on LinkedIn!\n\nBest, Ryan",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Reminder: Training Session on September 25\nHello Team,\n\nThis is a reminder about the mandatory training session on September 25th at 1 PM. The session will cover the new software features. Please make sure to attend.\n\nThank you, Catherine",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Thank You for Your Hard Work!\nHi Team,\n\nI wanted to take a moment to thank everyone for their hard work on the recent project. Your dedication and effort are truly appreciated and have not gone unnoticed.\n\nBest, Jason",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: We Need Your Input: Internal Satisfaction Survey\nHi All,\n\nWe’re conducting an internal satisfaction survey to gather feedback on our workplace environment. Your input is invaluable. Please complete the survey here: https://example.com/satisfaction-survey\n\nThanks, Diana",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Update: Company Policies on Leave and Absences\nDear Team,\n\nWe’ve made updates to our leave and absence policies. Please review the changes here: https://example.com/policy-updates. If you have any questions, feel free to reach out.\n\nBest, Emily",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Subscription Confirmation for Monthly Newsletter\nHello,\n\nThank you for subscribing to our monthly newsletter. You’ll receive updates on our latest news, events, and promotions. If you have any questions, feel free to contact us.\n\nBest, The Newsletter Team",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Follow-Up on Our Recent Client Meeting\nHi John,\n\nThank you for meeting with us yesterday. We’ve outlined the next steps and will send over the revised proposal by the end of the week. Let us know if you have any immediate questions.\n\nBest, Rachel",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Re: Inquiry About Product Specifications\nDear Mr. Smith,\n\nThank you for your inquiry. The product specifications you requested are available here: https://example.com/product-specs. Please let us know if you need any further details.\n\nBest regards, Linda",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Join Us for a Team Building Activity\nHi Everyone,\n\nWe’re planning a team-building event on October 22nd. It will be a fun day of activities designed to strengthen our team. More details will be shared soon. We hope to see you there!\n\nCheers, Mark",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Upcoming Software Update on September 30\nHello,\n\nWe wanted to inform you that we’ll be performing a software update on September 30th. The system may be down for a few hours. Please plan accordingly.\n\nBest, IT Department",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Time Off Request for Medical Appointment\nDear Karen,\n\nI’d like to request time off on September 15th for a medical appointment. I will ensure all my tasks are covered. Please let me know if this is acceptable.\n\nThank you, John",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Confirmation for Your Attendance at the Gala\nHi Julia,\n\nWe’ve received your RSVP for the gala on November 12th. We’re excited to see you there! If you have any dietary restrictions or special requests, please let us know.\n\nBest, The Events Team",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Meet Our New Team Member: Amy Lee\nHi Team,\n\nWe’re excited to introduce Amy Lee, our new UX Designer. Amy will be joining us on September 1st. Please join me in welcoming her to the team!\n\nBest, Laura",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: We Value Your Feedback!\nDear Customer,\n\nWe hope you’re enjoying our service. We’d love to hear your feedback. Please take a moment to fill out our brief survey here: https://example.com/service-feedback\n\nThank you, Customer Service Team",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Your Travel Itinerary for Upcoming Business Trip\nHi Steven,\n\nPlease find your travel itinerary for the upcoming business trip attached. Let me know if you have any questions or need changes.\n\nBest regards, Nancy",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Check Out Our Latest Blog Post!\nHi Everyone,\n\nWe’ve just published a new blog post about the benefits of digital marketing. Check it out here: https://example.com/digital-marketing-benefits. We hope you find it informative!\n\nBest, Marketing Team",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Friendly Reminder: Project Deadline Approaching\nHi Team,\n\nJust a quick reminder that the deadline for the quarterly report is next Monday. Please ensure all your sections are completed and submitted by then.\n\nThank you, James",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Request for Office Supplies\nDear Office Manager,\n\nWe’re running low on office supplies, particularly printer paper and pens. Could you please order some? Thank you!\n\nBest, Sarah",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: We’d Love Your Feedback on the Recent Workshop\nHi,\n\nWe hope you enjoyed the workshop on September 15th. Please share your feedback to help us improve future events: https://example.com/workshop-feedback\n\nBest, Event Coordinator",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Urgent: Website Down\nHi IT Team,\n\nI’ve noticed that our website is down. It’s been down for about an hour. Could you please look into this issue as soon as possible?\n\nThank you, Paul",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Job Offer Confirmation and Next Steps\nDear Lisa,\n\nCongratulations on receiving the job offer for the Project Manager position! Please review the offer details here: https://example.com/job-offer. We look forward to your response.\n\nBest, HR Team",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Local Farmer’s Market This Saturday!\nHi All,\n\nJust a reminder that the local farmer’s market will be open this Saturday from 8 AM to 2 PM. It’s a great opportunity to support local vendors and find fresh produce.\n\nBest, Community Board",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },{ 
+        "question": "Subject: Join Us in Our Charity Drive!\nHi Team,\n\nWe’re organizing a charity drive for the local food bank. Donations can be dropped off at the office until September 30th. Your contributions would be greatly appreciated.\n\nBest, Jessica",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Proposal for New Business Partnership\nHi Alex,\n\nWe’d like to propose a potential partnership opportunity. Please review the proposal document attached and let us know if you’re interested in discussing further.\n\nBest, Emily",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Invitation: Advanced Excel Training\nHi All,\n\nWe’re offering an Advanced Excel training session on October 10th. This is a great opportunity to enhance your skills. Sign up here: https://example.com/excel-training\n\nBest, Training Department",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Reminder: Membership Renewal Due\nHi,\n\nThis is a friendly reminder that your membership renewal is due by September 15th. Please renew online here: https://example.com/membership-renewal\n\nThank you, Membership Team",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: We Value Your Opinion!\nDear Customer,\n\nWe’d love to hear your thoughts on your recent purchase. Please leave a review here: https://example.com/product-review. Your feedback helps us improve our products.\n\nBest, Product Team",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Congratulations to Jane for Employee of the Month!\nHi Team,\n\nCongratulations to Jane for being named Employee of the Month! Jane’s hard work and dedication have been truly outstanding. Let’s all congratulate her on this achievement!\n\nBest, Management",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Helpful Resources for Upcoming Project\nHi Team,\n\nI’ve attached a few resources that might be useful for the upcoming project. Please review them at your convenience and let me know if you have any questions.\n\nBest, Lisa",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Thank You for Being a Valued Customer!\nHi,\n\nWe wanted to take a moment to thank you for your continued support. As a token of our appreciation, we’re offering a special discount on your next purchase: https://example.com/special-discount\n\nBest, Customer Relations",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Agenda for Tomorrow’s Staff Meeting\nHi Everyone,\n\nPlease find the agenda for tomorrow’s staff meeting attached. If you have any additional items to discuss, let me know by the end of the day.\n\nBest, Mark",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Notification of Changes to Leave Policy\nDear Staff,\n\nPlease be aware that there are changes to our leave policy effective October 1st. Review the updated policy here: https://example.com/leave-policy\n\nThank you, HR Department",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    { 
+        "question": "Subject: Our Product is Now Back in Stock!\nHi,\n\nGreat news! Our popular product is back in stock and available for purchase. Check it out here: https://example.com/product-stock. Thank you for your patience!\n\nBest, Sales Team",
+        "answer": {
+            "spam": false,
+            "spam_type": "",
+            "explanation": ""
+        }
+    },
+    {
+        "question": "Subject: Urgent: Verify Your Credit Card Information. To continue using your account without interruption, please provide your credit card details by clicking the link below: [Verify Credit Card](http://verify-credit-card.com/update?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email requests sensitive credit card information through a suspicious link, which is a common sign of phishing. Legitimate companies will never ask for such details via email."
+        }
+    },
+     {
+        "question": "Subject: [Alert] Secure Your Account! We’ve detected suspicious activity on your account. To secure your information, please confirm your account details at: [Secure Account](http://account-security-alert.com/confirm?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "This email creates a sense of urgency and requests account details through a suspicious link. Legitimate organizations do not ask for sensitive information through such methods."
+        }
+    },
+    {
+        "question": "Subject: Complete Your Registration Now! We need your bank account number to complete your registration. Click here to submit: [Complete Registration](http://registration-complete.com/submit?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email demands banking details to complete a registration process through a dubious link, which is a common phishing tactic."
+        }
+    },
+    {
+        "question": "Subject: Confirm Your Identity - Action Required! To verify your identity, please provide your credit card information at this link: [Identity Verification](http://identity-confirmation.com/verify?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "This email asks for credit card information under the guise of identity verification through a suspicious link, which is indicative of phishing."
+        }
+    },
+    {
+        "question": "Subject: [URGENT] Update Your Payment Details Now! Your payment details need updating. Click here to update: [Update Payment](http://payment-update.com/submit?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email uses an urgent tone and requests payment details through a questionable link, which is a common sign of phishing."
+        }
+    },
+    {
+        "question": "Subject: Your Account Needs Immediate Verification! Provide your social security number to verify your account here: [Verify Account](http://account-verification.com/confirm?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email requests a Social Security Number through a dubious domain for account verification, which is a clear phishing attempt."
+        }
+    },
+    {
+        "question": "Subject: [Important] Submit Your Financial Info Now! To avoid account suspension, submit your financial details here: [Submit Info](http://financial-info-submit.com/update?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "This email demands financial information to prevent account suspension via a suspicious link, a typical phishing tactic."
+        }
+    },
+    {
+        "question": "Subject: Action Needed: Confirm Your Credit Card Information! Confirm your credit card details to avoid account issues: [Confirm Card Info](http://card-info-confirmation.com/confirm?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email asks for credit card information to prevent supposed account issues through a dubious link, which is indicative of phishing."
+        }
+    },
+    {
+        "question": "Subject: [Security Alert] Provide Your Bank Details! We need your bank account number for security verification: [Provide Details](http://bank-details-request.com/verify?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email requests sensitive banking details under the pretense of security verification through a suspicious domain, a clear sign of phishing."
+        }
+    },
+    {
+        "question": "Subject: Immediate Action Required - Enter Your Password! For security reasons, please enter your password here: [Enter Password](http://password-entry.com/submit?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "This email solicits a password through a suspicious link, which is a classic phishing attempt to steal personal information."
+        }
+    },
+    {
+        "question": "Subject: Account Verification Needed - Provide Your Password. To secure your account, please enter your password here: [Enter Password](http://password-verification.com/confirm?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email requests a password, which is a clear indication of a phishing attempt. Legitimate companies will never ask for passwords via email."
+        }
+    },
+    {
+        "question": "Subject: Important: Update Your Banking Information. Please provide your bank account number and routing details to ensure your transactions are processed: [Update Banking Info](http://bank-info-update.com/update?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email asks for sensitive banking information through a suspicious domain, which is a common phishing tactic. Banks do not request such details via email."
+        }
+    },
+    {
+        "question": "Subject: Security Alert - Verify Your Social Security Number. We need your Social Security Number to verify your account. Click the link to provide it: [Verify SSN](http://ssn-verify.com/verify?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email requests a Social Security Number through a suspicious link, which is a clear sign of a phishing attempt. Legitimate organizations will not ask for such information via email."
+        }
+    },
+    {
+        "question": "Subject: Immediate Action Required - Confirm Your Identification Number. Please provide your personal identification number by clicking the link below: [Confirm ID Number](http://id-number-confirm.com/confirm?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email asks for a personal identification number through a dubious domain, a typical phishing method to gather sensitive information."
+        }
+    },
+    {
+        "question": "Subject: Update Needed: Provide Your Credit Card Details. To keep your account active, please provide your credit card details here: [Update Card Info](http://card-info-update.com/update?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email requests credit card details via a suspicious link, which is a common phishing tactic. Legitimate companies never ask for such information through email."
+        }
+    },
+    {
+        "question": "Subject: Verify Your Bank Account Number. We need you to confirm your bank account number to avoid service interruption: [Verify Account](http://bank-verification.com/confirm?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email requests sensitive banking details through a questionable domain, which is indicative of a phishing attempt."
+        }
+    },
+    {
+        "question": "Subject: Action Required: Submit Your Password. To continue using our services, please submit your password by clicking the link below: [Submit Password](http://password-submission.com/submit?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email requests a password through a suspicious link, a clear sign of phishing. Legitimate companies will not ask for passwords via email."
+        }
+    },
+    {
+        "question": "Subject: Urgent: Provide Your Financial Information. For account verification, please provide your financial information here: [Provide Info](http://financial-info-request.com/submit?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email requests financial details via a dubious domain, which is a common phishing tactic used to gather sensitive information."
+        }
+    },
+    {
+        "question": "Subject: Important Update - Confirm Your Credit Card Information. To keep your account active, please confirm your credit card details here: [Confirm Card Info](http://card-info-confirmation.com/confirm?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email uses a suspicious domain to request credit card information, a clear sign of phishing. Legitimate companies will not ask for such details through email."
+        }
+    },
+    {
+        "question": "Subject: Immediate Verification Required - Submit Your SSN. Verify your account by submitting your Social Security Number here: [Submit SSN](http://ssn-submit.com/verify?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email requests Social Security Number via a suspicious link, which is indicative of phishing. Legitimate organizations do not request such sensitive information via email."
+        }
+    },
+    {
+        "question": "Subject: Important Update Required for Your Account! To ensure uninterrupted service, please update your profile information using this link: [Update Profile](http://update-profile-info.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email asks for profile updates through a suspicious link, which could be a phishing attempt to gather personal information."
+        }
+    },
+    {
+        "question": "Subject: Account Verification Needed! Please verify your account details to avoid any disruption. Click here: [Verify Details](http://account-verification-request.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email requests account verification through a questionable link, which is a subtle attempt to gather sensitive information."
+        }
+    },
+    {
+        "question": "Subject: Confirm Your Subscription Preferences! To continue receiving our updates, please confirm your subscription preferences here: [Confirm Preferences](http://confirm-subscription.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email prompts the recipient to confirm subscription preferences through a suspicious link, which may be used to collect personal details."
+        }
+    },
+    {
+        "question": "Subject: Update Your Payment Method! Please update your payment method to ensure continued access. Click here to update: [Update Payment](http://payment-update-link.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email requests updating payment details through a dubious link, which might be an attempt to collect financial information."
+        }
+    },
+    {
+        "question": "Subject: Verify Your Identity for Security! We need to verify your identity to enhance security. Please use this link: [Verify Identity](http://identity-verification-site.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email asks for identity verification through a questionable site, which could be used to obtain personal information."
+        }
+    },
+    {
+        "question": "Subject: Confirm Your Contact Information! Ensure your contact details are up to date by confirming here: [Confirm Contact Info](http://contact-info-confirmation.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email requests confirmation of contact details through a suspicious link, which may be used to gather personal information."
+        }
+    },
+    {
+        "question": "Subject: Secure Your Account Now! Click here to secure your account by providing necessary details: [Secure Account](http://account-security-link.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email uses a security-related message to solicit sensitive information through a dubious link, a subtle phishing tactic."
+        }
+    },
+    {
+        "question": "Subject: Update Your Security Settings! For enhanced security, please update your settings using this link: [Update Settings](http://security-settings-update.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email encourages updating security settings through a questionable link, which may be used to collect personal or financial information."
+        }
+    },
+    {
+        "question": "Subject: Action Required: Verify Your Account Information! To ensure your account remains active, please verify your details here: [Verify Information](http://account-info-verify.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email requests verification of account information through a dubious site, potentially to gather sensitive data."
+        }
+    },
+    {
+        "question": "Subject: Check Your Account Activity! Review recent activity on your account by clicking here: [Review Activity](http://account-activity-review.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email prompts the recipient to check account activity through a suspicious link, which could be a tactic to collect personal information."
+        }
+    },
+{
+        "question": "Subject: Your Recent Transaction Requires Verification. To ensure your transaction is processed correctly, please confirm your payment details using the following secure link: [Confirm Payment](http://secure-payment-verification.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email prompts the recipient to confirm payment details through a suspicious link, potentially aiming to collect financial information."
+        }
+    },
+    {
+        "question": "Subject: Important Security Alert! We've detected unusual activity on your account. Click here to review the activity and secure your account: [Review Activity](http://unusual-activity-alert.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email claims unusual account activity and directs the recipient to a dubious link to review it, which may be a phishing attempt."
+        }
+    },
+    {
+        "question": "Subject: Account Update Required! Your account information needs to be updated. Please use this link to provide the necessary details: [Update Information](http://account-update-required.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email requests updating account information through a questionable link, which could be used to collect sensitive data."
+        }
+    },
+    {
+        "question": "Subject: Verify Your Billing Information. To avoid service interruptions, please verify your billing details here: [Verify Billing](http://billing-info-verify.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email asks for verification of billing details through a suspicious link, potentially to gather financial information."
+        }
+    },
+    {
+        "question": "Subject: Your Subscription Needs Confirmation. Confirm your subscription by following this link: [Confirm Subscription](http://subscription-confirmation.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email requests subscription confirmation through a dubious link, which could be a phishing attempt to collect personal details."
+        }
+    },
+    {
+        "question": "Subject: Secure Your Account Information. Please use this link to ensure your account details are up-to-date and secure: [Secure Account](http://account-security-update.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email encourages securing account details through a questionable link, which may be a tactic to gather sensitive information."
+        }
+    },
+    {
+        "question": "Subject: Action Required: Verify Your Identity! Click here to verify your identity and ensure your account remains active: [Verify Identity](http://identity-verification-link.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email requests identity verification through a dubious link, potentially used to collect personal information."
+        }
+    },
+    {
+        "question": "Subject: Urgent: Update Your Account Information! Your account information needs updating. Use this link to provide the required details: [Update Account](http://account-update-link.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email asks for urgent account information updates through a suspicious link, which could be a phishing attempt."
+        }
+    },
+    {
+        "question": "Subject: Your Account Needs Verification! Please verify your account information to continue using our services: [Verify Now](http://account-verification-site.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email requests account verification through a dubious site, potentially to gather sensitive information."
+        }
+    },
+    {
+        "question": "Subject: Confirm Your Profile Details! To ensure your profile remains active, confirm your details using this link: [Confirm Profile](http://profile-confirmation.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email requests profile confirmation through a questionable link, which might be used to collect personal information."
+        }
+    },
+    {
+        "question": "Subject: Secure Your Payment Details! To avoid issues, please confirm your payment details here: [Secure Payment](http://payment-security-link.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email prompts the recipient to secure payment details through a suspicious link, potentially aiming to gather financial information."
+        }
+    },
+    {
+        "question": "Subject: Verify Your Recent Transactions. Ensure your recent transactions are secure by clicking here: [Verify Transactions](http://transaction-verification.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email requests verification of transactions through a dubious link, which may be used to gather personal or financial information."
+        }
+    },
+    {
+        "question": "Subject: Confirm Your Payment Information! To complete your recent transaction, please confirm your payment details: [Confirm Payment Info](http://payment-info-confirmation.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email asks for confirmation of payment details through a suspicious site, which might be used to collect sensitive data."
+        }
+    },
+    {
+        "question": "Subject: Update Required for Account Security! Click here to update your security settings and ensure your account is safe: [Update Security](http://security-update-link.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email prompts updating security settings through a questionable link, potentially to collect personal information."
+        }
+    },
+    {
+        "question": "Subject: Your Account Needs Verification! Verify your account information by following this link: [Verify Account](http://account-verification-link.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email requests account verification through a dubious link, which could be a phishing attempt to gather personal details."
+        }
+    },
+    {
+        "question": "Subject: Confirm Your Identity for Continued Access. Ensure your identity is confirmed to maintain access: [Confirm Identity](http://identity-confirmation-link.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email asks for identity confirmation through a suspicious link, potentially used to collect sensitive information."
+        }
+    },
+    {
+        "question": "Subject: Verify Your Subscription Details. Confirm your subscription information by clicking here: [Verify Subscription](http://subscription-verification.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email requests verification of subscription details through a dubious link, which might be used to gather personal data."
+        }
+    },
+    {
+        "question": "Subject: Secure Your Account Information Now! Click here to update your account security information: [Secure Now](http://account-security-update.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email encourages updating account security through a questionable site, potentially to collect sensitive details."
+        }
+    },
+    {
+        "question": "Subject: Confirm Your Payment Details for Continued Service. Ensure your payment details are up-to-date by confirming here: [Confirm Details](http://payment-details-confirm.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email requests confirmation of payment details through a suspicious link, which could be a phishing attempt to collect financial information."
+        }
+    },
+    {
+        "question": "Subject: Update Your Account Profile Information! To keep your account active, update your profile details here: [Update Profile](http://profile-update-link.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email prompts the recipient to update profile information through a dubious site, potentially gathering personal data."
+        }
+    },
+    {
+        "question": "Subject: Verify Your Recent Activity! To ensure all activity on your account is legitimate, verify recent transactions here: [Verify Activity](http://activity-verification.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email requests verification of account activity through a questionable link, which may be used to collect sensitive information."
+        }
+    },
+    {
+        "question": "Subject: Confirm Your Account Security Settings! For better security, confirm your account settings here: [Confirm Settings](http://security-settings-confirm.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email asks for confirmation of security settings through a dubious site, potentially to gather personal or financial details."
+        }
+    },
+    {
+        "question": "Subject: Your Account Needs Immediate Attention! Click here to provide required details and ensure continued access: [Immediate Attention](http://account-attention-link.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email uses an urgent tone to request account details through a suspicious link, potentially gathering sensitive information."
+        }
+    },
+    {
+        "question": "Subject: Confirm Your Details for Continued Service! Ensure your details are up-to-date by confirming here: [Confirm Details](http://details-confirmation-link.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email requests confirmation of personal details through a dubious link, which could be a phishing attempt to gather sensitive information."
+        }
+    },
+    {
+        "question": "Subject: Action Required: Secure Your Information! Follow this link to secure your account and update your information: [Secure Info](http://information-security-link.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email prompts the recipient to secure their account through a questionable link, potentially to collect sensitive information."
+        }
+    },
+    {
+        "question": "Subject: Verify Your Profile Information! Click here to ensure your profile information is accurate and secure: [Verify Profile](http://profile-verification-link.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email asks for verification of profile information through a suspicious link, potentially used to gather personal data."
+        }
+    },
+    {
+        "question": "Subject: Update Your Personal Information! To maintain your account, update your personal details using this link: [Update Information](http://personal-info-update.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email requests an update of personal information through a dubious site, which may be used to collect sensitive data."
+        }
+    },
+    {
+        "question": "Subject: Your Account Requires Verification! Verify your account details to avoid any disruptions: [Verify Account](http://account-verification-url.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email prompts account verification through a questionable link, potentially to gather sensitive information."
+        }
+    },
+    {
+        "question": "Subject: Confirm Your Subscription Information! Ensure your subscription details are accurate by clicking here: [Confirm Subscription](http://subscription-info-confirm.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email asks for confirmation of subscription details through a dubious link, which could be a phishing attempt."
+        }
+    },
+    {
+        "question": "Subject: Secure Your Account Now! Click here to secure your account by providing updated information: [Secure Account](http://account-security-now.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email uses an urgent tone to request updated information through a suspicious link, potentially gathering sensitive details."
+        }
+    },
+    {
+        "question": "Subject: Verify Your Contact Information! To continue receiving our services, verify your contact information here: [Verify Contact](http://contact-info-verify.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "RPFI",
+            "explanation": "The email requests verification of contact information through a dubious link, potentially to gather personal information."
+        }
+    }
+]
