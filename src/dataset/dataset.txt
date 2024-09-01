@@ -1445,5 +1445,261 @@
             "spam_type": "FFoCP",
             "explanation": "This email falsely confirms a purchase of electronics, urging you to click a link to review an invoice. It is likely a phishing attempt or an attempt to install malware."
         }
-    }
+    },
+    {
+            "question": "Subject: Action Required: Outstanding Payment for Unordered Magazine Subscription Dear [Name], We are reaching out to inform you that there is an outstanding payment due for a magazine subscription that was processed in your name. We have attached the invoice detailing the amount due and the payment instructions. Please review the document carefully and make the payment as soon as possible to avoid any late fees. [Download Invoice](http://download-invoice-link.com?email=example@domain.com) If you did not authorize this subscription, please contact our customer service immediately at [Customer Service](http://contact-customer-service.com) for assistance. Best regards, The Subscription Management Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "This email falsely claims that you owe money for a magazine subscription you didn’t order, and provides a link to download an invoice which could be malicious or lead to phishing."
+            }
+        },
+        {
+            "question": "Subject: Your Recent Order Confirmation: High-Value Electronics Purchase Hello [Name], We are pleased to confirm your recent order of high-value electronics, including a state-of-the-art laptop and accessories. The total amount of your order is $2,500. Attached you will find the invoice and shipping details. Please review the attached document and verify your shipping address to ensure prompt delivery. [Download Order Details](http://download-order-link.com?email=example@domain.com) If you did not make this purchase or believe this is an error, please contact our support team immediately at [Support Contact](http://contact-support.com). Regards, The Electronics Store Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "This email pretends to confirm a large electronics purchase, including a link to download an invoice. It is likely a phishing attempt to steal personal information or distribute malware."
+            }
+        },
+        {
+            "question": "Subject: Urgent: Unpaid Invoice for Car Maintenance Service Dear [Name], This email serves as a notice for an unpaid invoice related to a car maintenance service that was performed recently. The invoice amount is $450, and payment is overdue. We have included a PDF attachment with the invoice details and payment instructions. [View Invoice PDF](http://view-invoice-pdf-link.com?email=example@domain.com) Please review the attached document and make the payment immediately. If you did not request this service or if you believe this invoice was sent in error, contact our billing department at [Billing Contact](http://contact-billing.com). Thank you for your prompt attention to this matter. Sincerely, The Auto Service Billing Department",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "This email claims there’s an unpaid invoice for car maintenance that you did not request. The attached PDF could contain malware or be part of a phishing scam."
+            }
+        },
+        {
+            "question": "Subject: Immediate Action Required: Discrepancy in Your Recent Hotel Reservation Hi [Name], We noticed a discrepancy in your recent hotel reservation. According to our records, there is an outstanding balance of $350 for a booking made under your name. We have attached the invoice for your review. Please click the link below to view the invoice and correct any errors in your reservation details. [View Hotel Invoice](http://view-hotel-invoice-link.com?email=example@domain.com) If you believe this is a mistake or if you did not make this reservation, please contact our reservations team immediately at [Reservations Contact](http://contact-reservations.com). Thank you, The Hotel Management Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "The email falsely claims there is an issue with a hotel reservation you did not make. The provided link likely leads to a phishing site or downloads malicious content."
+            }
+        },
+        {
+            "question": "Subject: Confirmation of Your Equipment Rental Invoice Dear [Name], We are sending you this email to confirm the recent rental of office equipment, including computers and printers, that was processed in your name. The total rental fee is $700, and the invoice is attached to this email. Please review the attached invoice to verify the details and make the payment. [Download Invoice](http://download-invoice-link.com?email=example@domain.com) If you did not authorize this rental or if you have any questions, please reach out to our support team at [Support Contact](http://contact-support.com). Best regards, The Equipment Rental Service",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "This email falsely confirms a rental of office equipment and provides a link to download an invoice. It is likely a scam to gather personal information or deliver malware."
+            }
+        },
+        {
+            "question": "Subject: Action Required: Unpaid Subscription Fee for Online Learning Platform Dear [Name], This is a reminder that your subscription fee for the online learning platform is overdue. The outstanding amount is $120. Attached is your invoice with detailed payment instructions. Please review the document and make the payment immediately to avoid any disruption in service. [View Invoice](http://view-invoice-link.com?email=example@domain.com) If you did not subscribe to this service or believe this invoice was sent in error, please contact our support team at [Support Contact](http://contact-support.com). Regards, The Learning Platform Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "The email falsely claims an overdue subscription fee for an online learning platform and includes a link to view an invoice, which could be a phishing attempt or contain malware."
+            }
+        },
+        {
+            "question": "Subject: Your Recent Purchase Confirmation: Designer Clothing Order Hello [Name], Thank you for your recent purchase of designer clothing from our online store. The total amount of your order is $1,200. We have attached the invoice and order details for your review. Please check the attached document to confirm your order and address details. [Download Order Details](http://download-order-link.com?email=example@domain.com) If you did not make this purchase or have any concerns, please contact our customer service team immediately at [Customer Service Contact](http://contact-customer-service.com). Best regards, The Online Store Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "This email confirms a purchase of designer clothing that you did not make, with a link to download an invoice. It is likely a phishing attempt or a means to install malware."
+            }
+        },
+        {
+            "question": "Subject: Urgent: Unpaid Balance for Mobile Plan Service Dear [Name], We have noticed an unpaid balance for your mobile phone service plan. The outstanding amount is $75. We have attached the invoice for your reference. Please review the attached document and settle the payment at your earliest convenience. [View Mobile Invoice](http://view-mobile-invoice-link.com?email=example@domain.com) If you did not subscribe to this plan or if you believe this notice is incorrect, please contact our support team at [Support Contact](http://contact-support.com). Thank you, The Mobile Service Billing Department",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "This email claims there is an unpaid balance for a mobile plan you did not subscribe to, with an attached invoice that may be used to install malware or capture personal information."
+            }
+        },
+        {
+            "question": "Subject: Confirmation: Large Order of Beauty Products Hi [Name], We are confirming your recent order of beauty products, totaling $800. Attached you will find the invoice detailing your purchase. Please review the invoice and ensure that all details are correct. [Download Beauty Invoice](http://download-beauty-invoice-link.com?email=example@domain.com) If you did not place this order or if you have any questions, please reach out to our customer support at [Customer Support Contact](http://contact-customer-support.com). Best regards, The Beauty Products Store",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "The email confirms a large order of beauty products you did not make, with a link to download an invoice. This is likely a phishing attempt or an attempt to install malware."
+            }
+        },
+        {
+            "question": "Subject: Invoice Attached: Unrecognized Purchase of Office Supplies Dear [Name], We are notifying you of an invoice for office supplies that were recently purchased using your account. The total amount is $320. Please review the attached invoice to verify the details. [Download Office Invoice](http://download-office-invoice-link.com?email=example@domain.com) If this purchase was not made by you or if there are any discrepancies, please contact our support team at [Support Contact](http://contact-support.com). Thank you, The Office Supplies Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "The email falsely claims you have an invoice for office supplies you did not order, with an attachment that could contain malware or be used to steal personal information."
+            }
+        },
+        {
+            "question": "Subject: Payment Reminder: Unpaid Invoice for Home Repair Services Hi [Name], We are sending this reminder regarding an unpaid invoice for home repair services performed recently. The invoice amount is $600. Please find the attached invoice and payment instructions. [View Home Repair Invoice](http://view-home-repair-invoice-link.com?email=example@domain.com) If you did not request these services or believe this is an error, contact our support team immediately at [Support Contact](http://contact-support.com). Regards, The Home Repair Services Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "This email pretends to notify you of an unpaid invoice for home repair services you did not request, and includes a link to an invoice which may be used for phishing or malware delivery."
+            }
+        },
+        {
+            "question": "Subject: Confirmation of Unauthorized Purchase: Luxury Watch Order Dear [Name], We have processed a luxury watch order under your account, totaling $3,000. If you did not make this purchase, please review the attached invoice and contact our support team immediately. [Download Invoice](http://download-luxury-watch-invoice.com?email=example@domain.com) The attachment contains the details of the order. If this is a mistake or if you have any concerns, reach out to our support team at [Support Contact](http://contact-support.com). Sincerely, The Luxury Goods Store",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "The email falsely confirms an expensive purchase of a luxury watch, with a link to download an invoice. It’s likely a phishing attempt or malware distribution."
+            }
+        },
+        {
+            "question": "Subject: Urgent Notice: Unpaid Balance for Gym Membership Dear [Name], Our records indicate that there is an unpaid balance of $90 for your gym membership. Please find the invoice attached and make the payment as soon as possible to avoid any service interruptions. [View Gym Invoice](http://view-gym-invoice-link.com?email=example@domain.com) If you did not subscribe to this membership or believe this notice is incorrect, please contact our customer service at [Customer Service Contact](http://contact-customer-service.com). Thank you, The Gym Management Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "This email claims you have an unpaid gym membership fee with an attached invoice. It is likely a phishing attempt or an attempt to install malware."
+            }
+        },
+        {
+            "question": "Subject: Immediate Action Required: Invoice for Unordered Technology Service Dear [Name], You have an outstanding invoice for a technology service that was charged to your account. The total amount due is $550. Attached is the invoice with payment details. [Download Technology Invoice](http://download-technology-invoice-link.com?email=example@domain.com) If you did not request this service or if you believe this invoice is incorrect, please contact our billing department at [Billing Contact](http://contact-billing.com). Best regards, The Technology Service Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "The email falsely claims an unpaid invoice for a technology service, with an attachment likely containing malware or used for phishing."
+            }
+        },
+        {
+            "question": "Subject: Payment Required: Invoice for Unrecognized Travel Booking Dear [Name], We have an outstanding invoice for a travel booking made under your name. The total amount is $1,200. Please review the attached invoice and make the payment promptly to confirm your reservation. [View Travel Invoice](http://view-travel-invoice-link.com?email=example@domain.com) If you did not book this travel or if you have any concerns, contact our support team at [Support Contact](http://contact-support.com). Regards, The Travel Agency",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "This email falsely claims an unpaid invoice for a travel booking you did not make, with a link to view an invoice likely leading to phishing or malware."
+            }
+        },
+        {
+            "question": "Subject: Confirmation of Unauthorized Purchase: Furniture Order Hi [Name], We are confirming a recent furniture purchase amounting to $2,000. If this order was not made by you, please review the attached invoice and contact us immediately. [Download Invoice](http://download-furniture-invoice-link.com?email=example@domain.com) The attached document includes details of the purchase. If you have any questions or believe this is an error, reach out to our customer service at [Customer Service Contact](http://contact-customer-service.com). Best regards, The Furniture Store Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "The email confirms an expensive furniture purchase you did not make, with a link to download an invoice. This is likely a phishing attempt or malware distribution."
+            }
+        },
+        {
+            "question": "Subject: Action Required: Unpaid Invoice for Recent Software Subscription Dear [Name], We are writing to inform you of an unpaid invoice for a software subscription that was recently activated. The invoice amount is $150. Please find the attached invoice for details and payment instructions. [View Invoice](http://view-software-invoice-link.com?email=example@domain.com) If you did not subscribe to this service or believe this invoice was sent in error, contact our billing department immediately at [Billing Contact](http://contact-billing.com). Thank you, The Software Service Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "The email pretends you owe money for a software subscription you did not sign up for, including an attachment that could be used for phishing or malware."
+            }
+        },
+        {
+            "question": "Subject: Important: Invoice for Recent Hotel Stay Dear [Name], This email confirms your recent stay at our hotel with an outstanding balance of $500. Attached is the invoice with details of the charges. Please review the attached document and make the payment immediately. [Download Hotel Invoice](http://download-hotel-invoice-link.com?email=example@domain.com) If you did not stay at our hotel or believe this is an error, please contact our support team at [Support Contact](http://contact-support.com). Regards, The Hotel Billing Department",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "This email claims there is an unpaid invoice for a hotel stay you did not make, with an attached invoice that may contain malware or be part of a phishing scam."
+            }
+        },
+        {
+            "question": "Subject: Urgent: Unpaid Invoice for Online Course Subscription Hi [Name], We have detected an unpaid invoice for an online course subscription totaling $180. Please find the invoice attached for your review. To avoid any interruption in service, make sure to settle the payment promptly. [View Invoice](http://view-course-invoice-link.com?email=example@domain.com) If you did not subscribe to this course or if you have any questions, please contact our support team at [Support Contact](http://contact-support.com). Best regards, The Online Learning Platform",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "The email falsely claims you owe for an online course subscription you did not order, and includes an attachment that could be used to install malware or steal personal information."
+            }
+        },
+        {
+            "question": "Subject: Confirmation Required: Invoice for Unrecognized Subscription Service Dear [Name], You have an unpaid invoice for a subscription service under your name. The total amount due is $250. Attached you will find the invoice and payment details. [Download Invoice](http://download-subscription-invoice-link.com?email=example@domain.com) If you did not subscribe to this service or believe this invoice is incorrect, please contact our customer service team at [Customer Service Contact](http://contact-customer-service.com). Regards, The Subscription Service Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "This email claims an unpaid invoice for a subscription service you did not sign up for, including a link to download an invoice which may be used for phishing or to spread malware."
+            }
+        },
+        {
+            "question": "Subject: Immediate Attention Required: Invoice for Unauthorized Purchase Dear [Name], We have an invoice for an unauthorized purchase made under your name. The total amount is $900. Please review the attached invoice and make the payment to avoid any service disruptions. [View Invoice](http://view-unauthorized-invoice-link.com?email=example@domain.com) If you did not make this purchase or if you have concerns, please contact our billing department immediately at [Billing Contact](http://contact-billing.com). Thank you, The Billing Department",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "The email falsely claims an invoice for a purchase you did not make, and includes a link to view an invoice which may be used for phishing or installing malware."
+            }
+        },
+        {
+            "question": "Subject: Payment Notice: Invoice for Unordered Furniture Purchase Dear [Name], We are notifying you of an outstanding invoice for a furniture purchase that was made using your account. The invoice total is $2,800. Please find the invoice attached and make the payment as soon as possible. [Download Invoice](http://download-furniture-invoice-link.com?email=example@domain.com) If you did not authorize this purchase or if you have any questions, please contact our support team at [Support Contact](http://contact-support.com). Regards, The Furniture Store Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "This email pretends there’s an unpaid invoice for a furniture purchase you did not make, including an attachment likely to be used for phishing or malware."
+            }
+        },
+        {
+            "question": "Subject: Urgent Payment Request: Invoice for Unrequested Service Hi [Name], We are reaching out regarding an unpaid invoice for a service you did not request. The amount due is $400. Attached is the invoice with payment instructions. Please review the document and make the payment promptly. [View Invoice](http://view-unrequested-service-invoice-link.com?email=example@domain.com) If you did not request this service or if you believe this notice is incorrect, contact our support team at [Support Contact](http://contact-support.com). Best regards, The Service Management Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "The email falsely claims an invoice for a service you did not request, with an attachment that could be used for phishing or installing malware."
+            }
+        },
+        {
+            "question": "Subject: Confirmation of Invoice for Recent Online Purchase Dear [Name], This email confirms an invoice for a recent online purchase made under your account, totaling $500. Please review the attached invoice and confirm the details. [Download Invoice](http://download-online-purchase-invoice-link.com?email=example@domain.com) If this purchase was not made by you or if there are any discrepancies, contact our support team immediately at [Support Contact](http://contact-support.com). Thank you, The Online Store Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "The email falsely confirms an online purchase invoice you did not make, with an attachment likely containing malware or being used for phishing."
+            }
+        },
+        {
+            "question": "Subject: Action Required: Unpaid Invoice for Medical Services Dear [Name], We have an unpaid invoice for medical services that were billed to your account. The total amount is $250. Please find the attached invoice for review and payment instructions. [View Medical Invoice](http://view-medical-invoice-link.com?email=example@domain.com) If you did not receive these services or if this invoice seems incorrect, contact our billing department at [Billing Contact](http://contact-billing.com). Regards, The Medical Billing Department",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "This email pretends there’s an unpaid medical invoice, with an attachment likely containing malware or being part of a phishing scam."
+            }
+        },
+        {
+            "question": "Subject: Immediate Attention Needed: Invoice for Unauthorized Subscription Hi [Name], We are sending this email to notify you of an invoice for a subscription service that you did not authorize. The total amount is $90. Please review the attached invoice and make the payment as soon as possible. [Download Invoice](http://download-unauthorized-subscription-link.com?email=example@domain.com) If you did not subscribe to this service or believe this is an error, please contact our support team at [Support Contact](http://contact-support.com). Best regards, The Subscription Service Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "The email claims an unpaid invoice for a subscription you did not authorize, with an attachment likely used for phishing or malware."
+            }
+        },
+        {
+            "question": "Subject: Payment Required: Invoice for Unrecognizable Online Purchase Dear [Name], This email is to inform you of an unpaid invoice for an online purchase that appears to be unrecognizable. The invoice amount is $750. Please review the attached document and settle the payment immediately. [View Online Purchase Invoice](http://view-online-purchase-invoice-link.com?email=example@domain.com) If you did not make this purchase or have any concerns, contact our support team at [Support Contact](http://contact-support.com). Regards, The Online Retail Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "This email falsely claims an invoice for an online purchase you did not make, with a link to view an invoice likely leading to phishing or malware."
+            }
+        },
+        {
+            "question": "Subject: Urgent: Unpaid Invoice for Recent Vehicle Service Hi [Name], We have an outstanding invoice for vehicle service performed under your name. The total amount is $650. Attached is the invoice for your review. Please make the payment at your earliest convenience. [Download Vehicle Invoice](http://download-vehicle-invoice-link.com?email=example@domain.com) If you did not request this service or have any questions, please contact our support team at [Support Contact](http://contact-support.com). Best regards, The Vehicle Service Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "This email claims you owe money for vehicle service you did not request, including an attachment that could be used for phishing or to deliver malware."
+            }
+        },
+        {
+            "question": "Subject: Confirmation Required: Invoice for Unrecognized Subscription Hi [Name], We are confirming an invoice for a subscription service that you did not recognize. The total amount due is $200. Please find the invoice attached for your review. [Download Invoice](http://download-unrecognized-subscription-link.com?email=example@domain.com) If you did not subscribe to this service or believe this invoice is incorrect, please contact our customer service team at [Customer Service Contact](http://contact-customer-service.com). Regards, The Subscription Service Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "The email falsely claims an invoice for a subscription you did not authorize, with an attachment likely containing malware or being part of a phishing attempt."
+            }
+        },
+        {
+            "question": "Subject: Urgent: Unpaid Invoice for Recently Ordered Electronics Dear [Name], We are notifying you of an unpaid invoice for electronics recently ordered under your name. The invoice amount is $1,000. Please review the attached invoice and make the payment promptly to avoid any delays. [View Invoice](http://view-electronics-invoice-link.com?email=example@domain.com) If this order was not made by you or if you have any concerns, please contact our support team at [Support Contact](http://contact-support.com). Best regards, The Electronics Retailer Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "This email falsely claims an invoice for electronics you did not order, with a link to view an invoice that is likely used for phishing or malware distribution."
+            }
+        },
+        {
+            "question": "Subject: Important: Invoice for Unordered Subscription Service Dear [Name], We have an invoice for an unordered subscription service charged to your account. The total amount is $100. Attached is the invoice for your review. [Download Invoice](http://download-unordered-subscription-link.com?email=example@domain.com) If you did not subscribe to this service or believe this invoice is incorrect, please contact our support team at [Support Contact](http://contact-support.com). Regards, The Subscription Management Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "The email falsely claims you have an invoice for a subscription you did not sign up for, and includes an attachment that may be used for phishing or malware."
+            }
+        },
+        {
+            "question": "Subject: Action Required: Invoice for Unauthorized Purchase of Luxury Goods Hi [Name], We are reaching out to notify you of an invoice for luxury goods purchased under your account, totaling $2,500. Please review the attached invoice and make the payment immediately. [View Luxury Goods Invoice](http://view-luxury-goods-invoice-link.com?email=example@domain.com) If you did not authorize this purchase or have any questions, contact our support team at [Support Contact](http://contact-support.com). Best regards, The Luxury Goods Store Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "This email falsely claims an invoice for luxury goods you did not purchase, including a link to view an invoice that is likely a phishing attempt or malware distribution."
+            }
+        }
 ]
