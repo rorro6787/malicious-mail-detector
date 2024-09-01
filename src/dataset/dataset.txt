@@ -885,45 +885,45 @@
             "spam_type": "RPFI",
             "explanation": "The email requests verification of contact information through a dubious link, potentially to gather personal information."
         },
-            {
-                "question": "Subject: Congratulations! You've Won $10,000,000! Click here to claim your prize now: [Claim Prize](http://claim-prize-link.com?email=example@domain.com)",
-                "answer": {
-                    "spam": true,
-                    "spam_type": "IPaO",
-                    "explanation": "The email claims that you have won an extremely large sum of money with no prior participation or validation, which is highly unlikely and designed to lure individuals into revealing personal information or paying fees."
-                }
-            },
-            {
-                "question": "Subject: You're the 10,000th Customer! Win a Free Luxury Car! Click to claim your new car: [Claim Car](http://claim-car-link.com?email=example@domain.com)",
-                "answer": {
-                    "spam": true,
-                    "spam_type": "IPaO",
-                    "explanation": "The email promises a high-value prize (a luxury car) for being a random customer number, which is a common tactic used to deceive people into providing personal details or paying hidden fees."
-                }
-            },
-            {
-                "question": "Subject: Free iPhone Just for Completing a Survey! Click here to get your free iPhone: [Get iPhone](http://get-iphone-link.com?email=example@domain.com)",
-                "answer": {
-                    "spam": true,
-                    "spam_type": "IPaO",
-                    "explanation": "The email offers a high-value item (an iPhone) in exchange for completing a survey, which is a typical spam tactic to collect personal information or gain access to your data."
-                }
-            },
-            {
-                "question": "Subject: Exclusive Opportunity! Win a Free All-Inclusive Vacation to Bali! Click here to enter: [Enter Vacation](http://enter-vacation-link.com?email=example@domain.com)",
-                "answer": {
-                    "spam": true,
-                    "spam_type": "IPaO",
-                    "explanation": "The email offers a luxurious vacation for free, which is highly suspicious. Such offers are often used to trick people into providing personal information or clicking on malicious links."
-                }
-            },
-            {
-                "question": "Subject: Special Offer! Erase All Your Debts for a Small Fee! Click here to clear your debts: [Clear Debts](http://clear-debts-link.com?email=example@domain.com)",
-                "answer": {
-                    "spam": true,
-                    "spam_type": "IPaO",
-                    "explanation": "The email promises to eliminate all debts in exchange for a small fee, which is a common scam tactic. Such promises are not legitimate and are designed to exploit individuals seeking financial relief."
-                }
-            }
+    {
+        "question": "Subject: Congratulations! You've Won $10,000,000! Click here to claim your prize now: [Claim Prize](http://claim-prize-link.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "IPaO",
+            "explanation": "The email claims that you have won an extremely large sum of money with no prior participation or validation, which is highly unlikely and designed to lure individuals into revealing personal information or paying fees."
+        }
+    },
+    {
+        "question": "Subject: You're the 10,000th Customer! Win a Free Luxury Car! Click to claim your new car: [Claim Car](http://claim-car-link.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "IPaO",
+            "explanation": "The email promises a high-value prize (a luxury car) for being a random customer number, which is a common tactic used to deceive people into providing personal details or paying hidden fees."
+        }
+    },
+    {
+        "question": "Subject: Free iPhone Just for Completing a Survey! Click here to get your free iPhone: [Get iPhone](http://get-iphone-link.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "IPaO",
+            "explanation": "The email offers a high-value item (an iPhone) in exchange for completing a survey, which is a typical spam tactic to collect personal information or gain access to your data."
+        }
+    },
+    {
+        "question": "Subject: Exclusive Opportunity! Win a Free All-Inclusive Vacation to Bali! Click here to enter: [Enter Vacation](http://enter-vacation-link.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "IPaO",
+            "explanation": "The email offers a luxurious vacation for free, which is highly suspicious. Such offers are often used to trick people into providing personal information or clicking on malicious links."
+        }
+    },
+    {
+        "question": "Subject: Special Offer! Erase All Your Debts for a Small Fee! Click here to clear your debts: [Clear Debts](http://clear-debts-link.com?email=example@domain.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "IPaO",
+            "explanation": "The email promises to eliminate all debts in exchange for a small fee, which is a common scam tactic. Such promises are not legitimate and are designed to exploit individuals seeking financial relief."
+        }
+    }
     }
 ]
