@@ -1110,5 +1110,164 @@
                 "explanation": "Free gaming consoles are often used to lure individuals into scams where their personal information is collected or they are redirected to malicious websites."
             }
         },
-
+  {
+        "question": "Subject: Congratulations! You've won a Luxury House for being 'Special'! Claim your prize now by clicking here: [Claim Luxury House](http://luxury-house-win.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "IPaO",
+            "explanation": "The email makes an unrealistic promise of winning a luxury house just for being 'special', which is a common tactic used in spam to lure individuals into clicking on malicious links."
+        }
+    },
+    {
+        "question": "Subject: You've Been Selected for a 50% Salary Increase! Confirm your details here: [Increase My Salary](http://salary-hike-info.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "IPaO",
+            "explanation": "This email promises a significant salary increase just for responding, which is highly unlikely and a tactic to phish for personal information."
+        }
+    },
+    {
+        "question": "Subject: Win a Brand New Sports Car by Referring Friends! Start here: [Win Sports Car](http://win-sportscar.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "IPaO",
+            "explanation": "Offering a new sports car just for referring friends is an unrealistic offer used to spread spam or potentially harmful links."
+        }
+    },
+    {
+        "question": "Subject: Claim Your $10,000,000 Prize for Being Our 10,000th Customer! Click to claim: [Claim Prize](http://10million-prize.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "IPaO",
+            "explanation": "Promising a $10,000,000 prize for being a specific customer is an unrealistic offer and a common phishing tactic."
+        }
+    },
+    {
+        "question": "Subject: Free Luxury Travel to an Exotic Destination Awaits! Secure your spot: [Luxury Travel](http://luxury-travel-offer.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "IPaO",
+            "explanation": "The promise of free luxury travel to an exotic destination is too good to be true and is a method used to collect personal information or money."
+        }
+    },
+    {
+        "question": "Subject: You've Won an International $1,000,000 Lottery Without Entering! Claim now: [Claim Lottery](http://lottery-win.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "IPaO",
+            "explanation": "Winning a large sum of money in a lottery without entering is impossible and a clear sign of a phishing attempt."
+        }
+    },
+    {
+        "question": "Subject: Get a Full University Scholarship with No Requirements! Apply now: [Full Scholarship](http://scholarship-offer.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "IPaO",
+            "explanation": "Offering a full university scholarship with no requirements is unrealistic and likely a scam to collect personal details."
+        }
+    },
+    {
+        "question": "Subject: Receive a Large Amount of Cryptocurrency for Minimal Effort! Start here: [Get Crypto](http://cryptocurrency-giveaway.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "IPaO",
+            "explanation": "The offer of receiving a large amount of cryptocurrency for minimal effort is too good to be true and potentially a scheme to steal digital assets."
+        }
+    },
+    {
+        "question": "Subject: Erase All Your Debts with a Small Fee! Act now: [Erase Debts](http://debt-elimination-offer.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "IPaO",
+            "explanation": "Promising to eliminate all debts in exchange for a small fee is a common scam tactic aimed at financially exploiting individuals."
+        }
+    },
+    {
+        "question": "Subject: Win a Free iPhone by Taking Our Survey! Participate here: [Win iPhone](http://free-iphone-survey.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "IPaO",
+            "explanation": "The promise of winning a free iPhone by participating in a survey is an enticing but unrealistic offer used to gather personal information."
+        }
+    },
+    {
+        "question": "Subject: Invest Now for a Guaranteed 200% Return! Secure your future: [Investment Opportunity](http://guaranteed-return-invest.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "IPaO",
+            "explanation": "Offering a guaranteed 200% return on investment is unrealistic and likely a scheme to defraud investors."
+        }
+    },
+    {
+        "question": "Subject: Claim Your $5,000 Cash Prize Just for Opening This Email! Claim here: [Claim Cash](http://cash-prize-claim.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "IPaO",
+            "explanation": "The offer of a $5,000 cash prize just for opening an email is implausible and a tactic to lure individuals into a scam."
+        }
+    },
+    {
+        "question": "Subject: Your Distant Senegalese Uncle Has Left You an Inheritance! Claim it now: [Inheritance Claim](http://inheritance-claim.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "IPaO",
+            "explanation": "Inheritance from a distant relative you've never heard of is a classic scam scenario used to trick people into giving away personal information or money."
+        }
+    },
+    {
+        "question": "Subject: Get a Year's Supply of Luxury Products at No Cost! Sign up: [Luxury Products](http://luxury-products-giveaway.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "IPaO",
+            "explanation": "The offer of a year's supply of luxury products for free is too good to be true and likely a phishing attempt to collect personal details."
+        }
+    },
+    {
+        "question": "Subject: Secure a Highly Paid Job with Minimal Requirements! Apply now: [High Salary Job](http://high-salary-job-offer.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "IPaO",
+            "explanation": "Promising a highly paid job with minimal requirements is unrealistic and may be a scam to collect personal or financial information."
+        }
+    },
+    {
+        "question": "Subject: You've Won a $1,000,000 International Sweepstakes! Claim your prize: [Claim Sweepstakes](http://international-sweepstakes-win.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "IPaO",
+            "explanation": "Winning a large sum in an international sweepstakes without entering is a clear sign of a phishing scam aimed at personal gain."
+        }
+    },
+    {
+        "question": "Subject: Exclusive Offer: Win a Luxury Trip for Two to an Exotic Island! Enter now: [Win Luxury Trip](http://luxury-trip-win.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "IPaO",
+            "explanation": "The offer of winning a luxury trip to an exotic island is an enticing but unrealistic promise used to lure individuals into scams."
+        }
+    },
+    {
+        "question": "Subject: Instant Debt Relief! Pay a Small Fee to Eliminate Your Debts! Get started: [Debt Relief](http://instant-debt-relief-offer.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "IPaO",
+            "explanation": "Offering instant debt relief for a small fee is a scam tactic targeting individuals struggling financially."
+        }
+    },
+    {
+        "question": "Subject: Claim Your Free Year of High-End Products! No purchase necessary: [Claim Products](http://free-year-products.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "IPaO",
+            "explanation": "The promise of free high-end products for a year without any purchase is unrealistic and a method to phish for personal information."
+        }
+    },
+    {
+        "question": "Subject: Congratulations! You're Eligible for a Free Luxury Car! Claim now: [Claim Luxury Car](http://luxury-car-giveaway.com)",
+        "answer": {
+            "spam": true,
+            "spam_type": "IPaO",
+            "explanation": "The email's offer of a free luxury car is an unrealistic promise used to attract individuals to fraudulent websites."
+        }
+    }
 ]
