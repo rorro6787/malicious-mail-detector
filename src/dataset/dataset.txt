@@ -1702,7 +1702,6 @@
                 "explanation": "This email falsely claims an invoice for luxury goods you did not purchase, including a link to view an invoice that is likely a phishing attempt or malware distribution."
             }
         },
-        [
             {
                 "question": "Subject: Urgent: Your Compromising Video Is at Risk of Being Published Hi [Name], I have obtained a compromising video of you, and I will publish it online unless you send me $500 within the next 24 hours. Do not ignore this message if you want to keep your privacy intact. [Pay Here](http://payment-link.com?email=example@domain.com) Failure to act promptly will result in the immediate release of the video. Regards, Anonymous",
                 "answer": {
@@ -1743,6 +1742,5 @@
                     "explanation": "The email falsely claims to have a video of you in your home and threatens to release it unless a payment is made, a common extortion tactic."
                 }
             }
-        ]
 
 ]
