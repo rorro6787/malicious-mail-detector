@@ -1406,45 +1406,45 @@
                 "explanation": "Winning expensive kitchen appliances for free is typically used to lure individuals into scams or to gather personal data."
             }
         },
- {
-        "question": "Subject: Urgent: Unpaid Invoice for Streaming Service Dear [Name], this is a reminder that you have an outstanding invoice for a streaming service subscription that was recently activated under your name. Please view the details and make the payment immediately using the link below. [View Invoice](http://view-invoice-link.com?email=example@domain.com) Regards, The Billing Department",
-        "answer": {
-            "spam": true,
-            "spam_type": "FFoCP",
-            "explanation": "This email pretends to be a billing notification for a streaming service you didn't subscribe to. It aims to trick you into clicking a malicious link or providing personal information."
-        }
-    },
-    {
-        "question": "Subject: Confirmation of High-End TV Purchase Hello [Name], thank you for your recent order of a high-end television. Your order has been processed and will be shipped shortly. To review your order details and confirm the shipment, please click the link below. [Confirm Order](http://confirm-order-link.com?email=example@domain.com) Best, The Sales Team",
-        "answer": {
-            "spam": true,
-            "spam_type": "FFoCP",
-            "explanation": "The email falsely confirms a purchase of a high-end TV that you did not make. It likely contains a link to a phishing site or a file that could infect your device with malware."
-        }
-    },
-    {
-        "question": "Subject: Subscription Payment Due for Digital Magazine Dear [Name], we have detected an overdue payment for your digital magazine subscription. To settle your account and avoid any interruptions in service, please review the invoice and make your payment through the link provided. [Pay Now](http://pay-now-link.com?email=example@domain.com) Regards, The Subscription Team",
-        "answer": {
-            "spam": true,
-            "spam_type": "FFoCP",
-            "explanation": "This email claims you owe money for a digital magazine subscription you did not subscribe to, with a link that could be used to gather personal information or install malware."
-        }
-    },
-    {
-        "question": "Subject: Invoice for Car Repair Service Dear [Name], an invoice for a car repair service has been issued in your name. Please find the details and payment instructions in the attached document. [View Invoice](http://view-invoice-link.com?email=example@domain.com) Sincerely, The Auto Repair Service",
-        "answer": {
-            "spam": true,
-            "spam_type": "FFoCP",
-            "explanation": "The email falsely claims that you have a pending invoice for a car repair service you did not request. The attachment could contain malware or be a phishing attempt."
-        }
-    },
-    {
-        "question": "Subject: Confirmation of Electronics Purchase - Immediate Action Required! Hi [Name], this is a confirmation for your recent electronics purchase. If you did not place this order, please review the invoice and contact our support team using the link below. [Review Invoice](http://review-invoice-link.com?email=example@domain.com) Best regards, The Electronics Store",
-        "answer": {
-            "spam": true,
-            "spam_type": "FFoCP",
-            "explanation": "This email falsely confirms a purchase of electronics, urging you to click a link to review an invoice. It is likely a phishing attempt or an attempt to install malware."
-        }
+     {
+            "question": "Subject: Urgent: Unpaid Invoice for Streaming Service Dear [Name], this is a reminder that you have an outstanding invoice for a streaming service subscription that was recently activated under your name. Please view the details and make the payment immediately using the link below. [View Invoice](http://view-invoice-link.com?email=example@domain.com) Regards, The Billing Department",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "This email pretends to be a billing notification for a streaming service you didn't subscribe to. It aims to trick you into clicking a malicious link or providing personal information."
+            }
+        },
+        {
+            "question": "Subject: Confirmation of High-End TV Purchase Hello [Name], thank you for your recent order of a high-end television. Your order has been processed and will be shipped shortly. To review your order details and confirm the shipment, please click the link below. [Confirm Order](http://confirm-order-link.com?email=example@domain.com) Best, The Sales Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "The email falsely confirms a purchase of a high-end TV that you did not make. It likely contains a link to a phishing site or a file that could infect your device with malware."
+            }
+        },
+        {
+            "question": "Subject: Subscription Payment Due for Digital Magazine Dear [Name], we have detected an overdue payment for your digital magazine subscription. To settle your account and avoid any interruptions in service, please review the invoice and make your payment through the link provided. [Pay Now](http://pay-now-link.com?email=example@domain.com) Regards, The Subscription Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "This email claims you owe money for a digital magazine subscription you did not subscribe to, with a link that could be used to gather personal information or install malware."
+            }
+        },
+        {
+            "question": "Subject: Invoice for Car Repair Service Dear [Name], an invoice for a car repair service has been issued in your name. Please find the details and payment instructions in the attached document. [View Invoice](http://view-invoice-link.com?email=example@domain.com) Sincerely, The Auto Repair Service",
+            "answer": {
+                "spam": true,
+                "spam_type": "FFoCP",
+                "explanation": "The email falsely claims that you have a pending invoice for a car repair service you did not request. The attachment could contain malware or be a phishing attempt."
+            }
+        },
+        {
+            "question": "Subject: Confirmation of Electronics Purchase - Immediate Action Required! Hi [Name], this is a confirmation for your recent electronics purchase. If you did not place this order, please review the invoice and contact our support team using the link below. [Review Invoice](http://review-invoice-link.com?email=example@domain.com) Best regards, The Electronics Store",
+            "answer": {
+                "spam": true,
+                "sm_type": "FFoCP",
+                "explanation": "This email falsely confirms a purchase of electronics, urging you to click a link to review an invoice. It is likely a phishing attempt or an attempt to install malware."
+            }
     },
     {
             "question": "Subject: Action Required: Outstanding Payment for Unordered Magazine Subscription Dear [Name], We are reaching out to inform you that there is an outstanding payment due for a magazine subscription that was processed in your name. We have attached the invoice detailing the amount due and the payment instructions. Please review the document carefully and make the payment as soon as possible to avoid any late fees. [Download Invoice](http://download-invoice-link.com?email=example@domain.com) If you did not authorize this subscription, please contact our customer service immediately at [Customer Service](http://contact-customer-service.com) for assistance. Best regards, The Subscription Management Team",
@@ -1701,5 +1701,48 @@
                 "spam_type": "FFoCP",
                 "explanation": "This email falsely claims an invoice for luxury goods you did not purchase, including a link to view an invoice that is likely a phishing attempt or malware distribution."
             }
-        }
+        },
+        [
+            {
+                "question": "Subject: Urgent: Your Compromising Video Is at Risk of Being Published Hi [Name], I have obtained a compromising video of you, and I will publish it online unless you send me $500 within the next 24 hours. Do not ignore this message if you want to keep your privacy intact. [Pay Here](http://payment-link.com?email=example@domain.com) Failure to act promptly will result in the immediate release of the video. Regards, Anonymous",
+                "answer": {
+                    "spam": true,
+                    "spam_type": "CEC",
+                    "explanation": "This email falsely claims to have compromising video footage and threatens to publish it unless a payment is made. It is a classic example of extortion."
+                }
+            },
+            {
+                "question": "Subject: Immediate Action Required: I Have Your Passwords Dear [Name], I've successfully hacked into your accounts and have your passwords. To prevent me from sharing this information, you need to transfer $1000 to my account within 48 hours. [Transfer Funds](http://transfer-link.com?email=example@domain.com) Ignore this message, and your personal information will be exposed. Sincerely, Cyber Threat",
+                "answer": {
+                    "spam": true,
+                    "spam_type": "CEC",
+                    "explanation": "The email claims to have hacked your accounts and demands payment to keep your passwords secret. It is an attempt at extortion."
+                }
+            },
+            {
+                "question": "Subject: Confidential: Your Private Photos Are at Risk! Hi [Name], I have captured private photos of you and will make them public if you do not send me $2000 immediately. Click the link below to make the payment. [Pay Now](http://payment-now-link.com?email=example@domain.com) Your silence will lead to these photos being shared widely. Regards, Secret Keeper",
+                "answer": {
+                    "spam": true,
+                    "spam_type": "CEC",
+                    "explanation": "This email threatens to release private photos unless a significant payment is made, using fear to coerce the recipient."
+                }
+            },
+            {
+                "question": "Subject: Alert: Your Online Activities Are Being Monitored Dear [Name], I have a detailed record of your online activities and will distribute this information to your contacts if you do not send $800. Act now to avoid public embarrassment. [Make Payment](http://make-payment-link.com?email=example@domain.com) Do not disregard this notice; your reputation is at stake. Regards, Anonymous",
+                "answer": {
+                    "spam": true,
+                    "spam_type": "CEC",
+                    "explanation": "The email falsely claims to have recorded your online activities and threatens to disclose them unless a payment is made. It is a form of extortion."
+                }
+            },
+            {
+                "question": "Subject: Immediate Threat: Video of You in Your Home Hi [Name], I have accessed your camera and recorded a video of you in your own home. Unless you pay $1500 within 24 hours, I will release this video to the public. Click the link to make the payment now. [Pay Here](http://pay-here-link.com?email=example@domain.com) Your prompt action is required to avoid exposure. Sincerely, Confidential Threat",
+                "answer": {
+                    "spam": true,
+                    "spam_type": "CEC",
+                    "explanation": "The email falsely claims to have a video of you in your home and threatens to release it unless a payment is made, a common extortion tactic."
+                }
+            }
+        ]
+
 ]
