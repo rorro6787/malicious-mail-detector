@@ -1269,5 +1269,142 @@
             "spam_type": "IPaO",
             "explanation": "The email's offer of a free luxury car is an unrealistic promise used to attract individuals to fraudulent websites."
         }
-    }
+    },
+      {
+            "question": "Subject: Claim Your $10,000 Prize Now! Dear [Name], you’re one of the lucky winners of our $10,000 giveaway! To claim your prize, simply verify your details by clicking the link below. Don’t miss out! [Claim Your Prize](http://claim-prize-link.com?email=example@domain.com) Warm regards, The Giveaway Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "IPaO",
+                "explanation": "An unexpected prize of $10,000 with a verification link is typically used to collect personal information under the guise of awarding a prize."
+            }
+        },
+        {
+            "question": "Subject: Congratulations! You’ve Won a Free Year of Exclusive Fitness Training! Hello [Name], you’ve been chosen to receive a free year of premium fitness training services. Activate your offer by clicking the link below. [Activate Fitness Offer](http://activate-fitness-link.com?email=example@domain.com) Regards, The Fitness Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "IPaO",
+                "explanation": "A free year of fitness services is usually a scam to lure users into providing personal information or accessing phishing sites."
+            }
+        },
+        {
+            "question": "Subject: Limited-Time Offer! Get a Free High-Definition Television! Dear [Name], as part of our special promotion, you can receive a high-definition television for free. Just follow the link below to claim your offer. [Claim HD TV](http://claim-hd-tv-link.com?email=example@domain.com) Best, The TV Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "IPaO",
+                "explanation": "Offering a high-definition television for free is likely a scam to obtain personal data or redirect users to fraudulent sites."
+            }
+        },
+        {
+            "question": "Subject: Win a Free Dream Vacation to Hawaii! Hi [Name], you’ve been selected to win a dream vacation to Hawaii! To confirm your prize, click the link below and provide your information. [Confirm Your Vacation](http://confirm-vacation-link.com?email=example@domain.com) Regards, The Vacation Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "IPaO",
+                "explanation": "Offering a free dream vacation to Hawaii without prior entry is usually a tactic to collect personal data or payments from unsuspecting individuals."
+            }
+        },
+        {
+            "question": "Subject: Get a Free Designer Handbag! Limited Time Offer! Dear [Name], you’re eligible to receive a designer handbag absolutely free! To claim your prize, just follow the link below. [Claim Designer Handbag](http://claim-handbag-link.com?email=example@domain.com) Best regards, The Fashion Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "IPaO",
+                "explanation": "Offers of free designer items are typically used to gather personal information or to direct individuals to phishing sites."
+            }
+        },
+        {
+            "question": "Subject: Exclusive Chance! Win a Free $200,000 Luxury Apartment! Hello [Name], you’re one of the lucky individuals chosen to win a luxury apartment worth $200,000. Click below to claim your prize and fill out your details. [Claim Luxury Apartment](http://claim-apartment-link.com?email=example@domain.com) Sincerely, The Property Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "IPaO",
+                "explanation": "An offer for a free luxury apartment is highly suspicious and likely a scam designed to collect personal information or fees."
+            }
+        },
+        {
+            "question": "Subject: Free High-End Home Theater System! Dear [Name], win a complete home theater system worth thousands of dollars. To enter, simply click the link below and provide your information. [Enter to Win Home Theater](http://enter-home-theater-link.com?email=example@domain.com) Regards, The Home Theater Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "IPaO",
+                "explanation": "Offering a high-end home theater system for free is usually a scam to extract personal information or to mislead users."
+            }
+        },
+        {
+            "question": "Subject: Earn $1,000 Just for Providing Feedback! Hi [Name], we value your feedback and are offering $1,000 for a few minutes of your time. Click below to participate and claim your reward. [Provide Feedback](http://provide-feedback-link.com?email=example@domain.com) Best regards, The Feedback Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "IPaO",
+                "explanation": "Offering a large sum of money for feedback is typically a scam designed to collect personal information or access to personal accounts."
+            }
+        },
+        {
+            "question": "Subject: Special Deal! Get a Free Subscription to an Exclusive Magazine! Dear [Name], you’ve been selected to receive a free subscription to our exclusive magazine. Click the link below to start your free subscription. [Start Free Subscription](http://start-magazine-link.com?email=example@domain.com) Regards, The Magazine Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "IPaO",
+                "explanation": "Free magazine subscriptions are often used to collect personal data or to direct users to phishing schemes."
+            }
+        },
+        {
+            "question": "Subject: You’ve Won a Free $50,000 Shopping Spree! Hello [Name], congratulations! You’ve won a $50,000 shopping spree. To claim your prize, click the link below and enter your details. [Claim Shopping Spree](http://claim-shopping-spree-link.com?email=example@domain.com) Sincerely, The Shopping Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "IPaO",
+                "explanation": "Winning a substantial shopping spree without any previous involvement is typically a scam used to gather personal information or fees."
+            }
+        },
+        {
+            "question": "Subject: Free Upgrade to a Premium Cell Phone Plan! Dear [Name], enjoy a free upgrade to our premium cell phone plan with no additional cost. Click below to activate your free plan. [Activate Premium Plan](http://activate-cell-phone-plan-link.com?email=example@domain.com) Best, The Phone Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "IPaO",
+                "explanation": "A free premium cell phone plan offer is often used to scam users into providing personal information or accessing fraudulent sites."
+            }
+        },
+        {
+            "question": "Subject: Win a Free $100,000 Cash Prize! Hi [Name], you’re a lucky winner of our $100,000 cash prize! Click the link below to verify your details and claim your prize. [Claim Cash Prize](http://claim-cash-prize-link.com?email=example@domain.com) Regards, The Prize Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "IPaO",
+                "explanation": "A large cash prize offered without prior entry is a common scam tactic designed to gather personal details or extract fees."
+            }
+        },
+        {
+            "question": "Subject: Exclusive Offer! Get a Free Professional-Grade Camera! Hello [Name], win a top-of-the-line camera for free! To claim this offer, click the link below and provide your information. [Claim Your Camera](http://claim-camera-link.com?email=example@domain.com) Best regards, The Camera Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "IPaO",
+                "explanation": "Free professional-grade equipment offers are usually scams meant to collect personal information or to mislead users."
+            }
+        },
+        {
+            "question": "Subject: Get a Free $25,000 Scholarship! Dear [Name], you’ve been awarded a $25,000 scholarship for your education. Click the link below to confirm your eligibility and receive your funds. [Claim Scholarship](http://claim-scholarship-link.com?email=example@domain.com) Sincerely, The Scholarship Committee",
+            "answer": {
+                "spam": true,
+                "spam_type": "IPaO",
+                "explanation": "Scholarship offers with large amounts of money and no clear application process are typically scams aimed at gathering personal information."
+            }
+        },
+        {
+            "question": "Subject: Exclusive Access! Win a Free High-End Sports Watch! Hi [Name], you’re invited to win a high-end sports watch valued at over $5,000! Click the link below to enter the giveaway. [Enter to Win Watch](http://enter-watch-link.com?email=example@domain.com) Regards, The Watch Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "IPaO",
+                "explanation": "Offers of valuable items like high-end sports watches for free are often used to collect personal information or to lure users into phishing schemes."
+            }
+        },
+        {
+            "question": "Subject: Free Trial of a Luxury Spa Package! Dear [Name], enjoy a free trial of our luxury spa services. This limited-time offer includes all treatments at no cost. Click below to book your trial. [Book Spa Trial](http://book-spa-trial-link.com?email=example@domain.com) Best, The Spa Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "IPaO",
+                "explanation": "Free luxury spa packages are frequently used to deceive users into providing personal details or redirecting them to fraudulent sites."
+            }
+        },
+        {
+            "question": "Subject: Win a Free State-of-the-Art Kitchen Appliance! Hi [Name], you’ve won a state-of-the-art kitchen appliance worth thousands of dollars! To claim your prize, simply follow the link below. [Claim Kitchen Appliance](http://claim-appliance-link.com?email=example@domain.com) Regards, The Kitchen Team",
+            "answer": {
+                "spam": true,
+                "spam_type": "IPaO",
+                "explanation": "Winning expensive kitchen appliances for free is typically used to lure individuals into scams or to gather personal data."
+            }
+        },
+
 ]
