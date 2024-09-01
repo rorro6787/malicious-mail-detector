@@ -1702,45 +1702,124 @@
                 "explanation": "This email falsely claims an invoice for luxury goods you did not purchase, including a link to view an invoice that is likely a phishing attempt or malware distribution."
             }
         },
-            {
-                "question": "Subject: Urgent: Your Compromising Video Is at Risk of Being Published Hi [Name], I have obtained a compromising video of you, and I will publish it online unless you send me $500 within the next 24 hours. Do not ignore this message if you want to keep your privacy intact. [Pay Here](http://payment-link.com?email=example@domain.com) Failure to act promptly will result in the immediate release of the video. Regards, Anonymous",
-                "answer": {
-                    "spam": true,
-                    "spam_type": "CEC",
-                    "explanation": "This email falsely claims to have compromising video footage and threatens to publish it unless a payment is made. It is a classic example of extortion."
-                }
-            },
-            {
-                "question": "Subject: Immediate Action Required: I Have Your Passwords Dear [Name], I've successfully hacked into your accounts and have your passwords. To prevent me from sharing this information, you need to transfer $1000 to my account within 48 hours. [Transfer Funds](http://transfer-link.com?email=example@domain.com) Ignore this message, and your personal information will be exposed. Sincerely, Cyber Threat",
-                "answer": {
-                    "spam": true,
-                    "spam_type": "CEC",
-                    "explanation": "The email claims to have hacked your accounts and demands payment to keep your passwords secret. It is an attempt at extortion."
-                }
-            },
-            {
-                "question": "Subject: Confidential: Your Private Photos Are at Risk! Hi [Name], I have captured private photos of you and will make them public if you do not send me $2000 immediately. Click the link below to make the payment. [Pay Now](http://payment-now-link.com?email=example@domain.com) Your silence will lead to these photos being shared widely. Regards, Secret Keeper",
-                "answer": {
-                    "spam": true,
-                    "spam_type": "CEC",
-                    "explanation": "This email threatens to release private photos unless a significant payment is made, using fear to coerce the recipient."
-                }
-            },
-            {
-                "question": "Subject: Alert: Your Online Activities Are Being Monitored Dear [Name], I have a detailed record of your online activities and will distribute this information to your contacts if you do not send $800. Act now to avoid public embarrassment. [Make Payment](http://make-payment-link.com?email=example@domain.com) Do not disregard this notice; your reputation is at stake. Regards, Anonymous",
-                "answer": {
-                    "spam": true,
-                    "spam_type": "CEC",
-                    "explanation": "The email falsely claims to have recorded your online activities and threatens to disclose them unless a payment is made. It is a form of extortion."
-                }
-            },
-            {
-                "question": "Subject: Immediate Threat: Video of You in Your Home Hi [Name], I have accessed your camera and recorded a video of you in your own home. Unless you pay $1500 within 24 hours, I will release this video to the public. Click the link to make the payment now. [Pay Here](http://pay-here-link.com?email=example@domain.com) Your prompt action is required to avoid exposure. Sincerely, Confidential Threat",
-                "answer": {
-                    "spam": true,
-                    "spam_type": "CEC",
-                    "explanation": "The email falsely claims to have a video of you in your home and threatens to release it unless a payment is made, a common extortion tactic."
-                }
+        {
+            "question": "Subject: Urgent: Your Compromising Video Is at Risk of Being Published Hi [Name], I have obtained a compromising video of you, and I will publish it online unless you send me $500 within the next 24 hours. Do not ignore this message if you want to keep your privacy intact. [Pay Here](http://payment-link.com?email=example@domain.com) Failure to act promptly will result in the immediate release of the video. Regards, Anonymous",
+            "answer": {
+                "spam": true,
+                "spam_type": "CEC",
+                "explanation": "This email falsely claims to have compromising video footage and threatens to publish it unless a payment is made. It is a classic example of extortion."
             }
-
+        },
+        {
+            "question": "Subject: Immediate Action Required: I Have Your Passwords Dear [Name], I've successfully hacked into your accounts and have your passwords. To prevent me from sharing this information, you need to transfer $1000 to my account within 48 hours. [Transfer Funds](http://transfer-link.com?email=example@domain.com) Ignore this message, and your personal information will be exposed. Sincerely, Cyber Threat",
+            "answer": {
+                "spam": true,
+                "spam_type": "CEC",
+                "explanation": "The email claims to have hacked your accounts and demands payment to keep your passwords secret. It is an attempt at extortion."
+            }
+        },
+        {
+            "question": "Subject: Confidential: Your Private Photos Are at Risk! Hi [Name], I have captured private photos of you and will make them public if you do not send me $2000 immediately. Click the link below to make the payment. [Pay Now](http://payment-now-link.com?email=example@domain.com) Your silence will lead to these photos being shared widely. Regards, Secret Keeper",
+            "answer": {
+                "spam": true,
+                "spam_type": "CEC",
+                "explanation": "This email threatens to release private photos unless a significant payment is made, using fear to coerce the recipient."
+            }
+        },
+        {
+            "question": "Subject: Alert: Your Online Activities Are Being Monitored Dear [Name], I have a detailed record of your online activities and will distribute this information to your contacts if you do not send $800. Act now to avoid public embarrassment. [Make Payment](http://make-payment-link.com?email=example@domain.com) Do not disregard this notice; your reputation is at stake. Regards, Anonymous",
+            "answer": {
+                "spam": true,
+                "spam_type": "CEC",
+                "explanation": "The email falsely claims to have recorded your online activities and threatens to disclose them unless a payment is made. It is a form of extortion."
+            }
+        },
+        {
+            "question": "Subject: Immediate Threat: Video of You in Your Home Hi [Name], I have accessed your camera and recorded a video of you in your own home. Unless you pay $1500 within 24 hours, I will release this video to the public. Click the link to make the payment now. [Pay Here](http://pay-here-link.com?email=example@domain.com) Your prompt action is required to avoid exposure. Sincerely, Confidential Threat",
+            "answer": {
+                "spam": true,
+                "spam_type": "CEC",
+                "explanation": "The email falsely claims to have a video of you in your home and threatens to release it unless a payment is made, a common extortion tactic."
+            }
+        },
+ {
+        "question": "Subject: Hello pervert, I've sent this message from your Microsoft account. I want to inform you about a very bad situation for you. However, you can benefit from it if you act wisely. Have you heard of Pegasus? This is a spyware program that installs on computers and smartphones and allows hackers to monitor the activity of device owners. It provides access to your webcam, messengers, emails, call records, etc. It works well on Android, iOS, macOS, and Windows. I guess, you already figured out where I’m getting at. It’s been a few months since I installed it on all your devices because you were not quite choosy about what links to click on the internet. During this period, I’ve learned about all aspects of your private life, but one is of special significance to me. I’ve recorded many videos of you jerking off to highly controversial porn videos. Given that the “questionable” genre is almost always the same, I can conclude that you have sick perversion. I doubt you’d want your friends, family, and co-workers to know about it. However, I can do it in a few clicks. Every number in your contact list will suddenly receive these videos – on WhatsApp, on Telegram, on Instagram, on Facebook, on email – everywhere. It is going to be a tsunami that will sweep away everything in its path, and first of all, your former life. Don’t think of yourself as an innocent victim. No one knows where your perversion might lead in the future, so consider this a kind of deserved punishment to stop you. I’m some kind of God who sees everything. However, don’t panic. As we know, God is merciful and forgiving, and so am I. But my mercy is not free. Transfer $1200 to my Litecoin (LTC) wallet: ltc1qkps4kg63y8r2t0uuh8sktghn3y0v7wnghazaru. Once I receive confirmation of the transaction, I will permanently delete all videos compromising you, uninstall Pegasus from all of your devices, and disappear from your life. You can be sure – my benefit is only money. Otherwise, I wouldn’t be writing to you but destroy your life without a word in a second. I’ll be notified when you open my email, and from that moment, you have exactly 48 hours to send the money. If cryptocurrencies are uncharted waters for you, don’t worry, it’s very simple. Just google 'crypto exchange' or 'buy Litecoin,' and then it will be no harder than buying some useless stuff on Amazon. I strongly warn you against the following: Do not reply to this email. I've sent it from your Microsoft account. Do not contact the police. I have access to all your devices, and as soon as I find out you ran to the cops, videos will be published. Don’t try to reset or destroy your devices. As I mentioned above: I’m monitoring all your activity, so you either agree to my terms, or the videos are published. Also, don’t forget that cryptocurrencies are anonymous, so it’s impossible to identify me using the provided address. Good luck, my perverted friend. I hope this is the last time we hear from each other. And some friendly advice: from now on, don’t be so careless about your online security.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "This email uses scare tactics, claiming to have access to the recipient's devices and threatening to release compromising videos unless a ransom is paid. It is a classic example of email extortion."
+        }
+    },
+    {
+        "question": "Subject: I Have Proof of Your Online Activities - Pay $1000 Now Hello [Name], I’ve been tracking your online activities for months using a sophisticated spyware. During this time, I’ve captured screenshots and videos of you engaging in very compromising activities. If you don’t want these materials to be leaked to your contacts, you must transfer $1000 in Bitcoin within 48 hours. I know all your passwords and have access to your webcam, so don’t think you can hide. I suggest you take this seriously. [Make Payment Here](http://example-link.com?email=example@domain.com) Remember, if you try to ignore this, your private life will be ruined. Pay up or face the consequences.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "This email falsely claims to have captured compromising materials and threatens to release them unless a payment is made, a typical form of extortion."
+        }
+    },
+    {
+        "question": "Subject: Immediate Action Required: Your Secrets Are at Risk! Dear [Name], I have successfully installed spyware on your device that allows me to monitor everything you do. I have footage of you in compromising situations and will share it with everyone you know unless you send $1500 in Bitcoin. Don’t think you can escape this; I’m watching every move you make. If you want to keep your secrets safe, pay up now. [Pay Here](http://payment-link.com?email=example@domain.com) You have 48 hours to comply.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "The email threatens to expose the recipient's 'secrets' unless a payment is made. It uses fear to coerce compliance, which is a typical trait of extortion scams."
+        }
+    },
+    {
+        "question": "Subject: You’ve Been Caught - Pay $800 or Face the Consequences! Hi [Name], I’ve gained access to your devices and recorded everything you’ve been doing, including some very personal activities. You wouldn’t want these videos shared with your family or colleagues, would you? If not, send $800 in Bitcoin to the address below within 24 hours. This is your only chance to keep this private. [Transfer Here](http://example-link.com?email=example@domain.com) Ignore this, and everyone will know your darkest secrets.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "This email threatens to release videos allegedly capturing the recipient in compromising situations unless a ransom is paid. It is designed to induce fear and extort money."
+        }
+    },
+    {
+        "question": "Subject: Your Privacy Has Been Compromised! Pay $1200 Now. Dear [Name], I’ve been monitoring your online activity for a while now, and I have recorded some very compromising footage of you. If you don’t want these videos to be sent to everyone you know, you need to send $1200 in Bitcoin to the address below. You have 48 hours to do this, or your life as you know it will be over. [Make Payment Here](http://payment-link.com?email=example@domain.com) Don’t try to ignore this message. I’m watching.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "The email claims to have compromising footage and threatens to expose it unless a ransom is paid. It is a clear attempt at extortion using fabricated threats."
+        }
+    },
+    {
+        "question": "Subject: I've Recorded You - $900 to Keep It Quiet Hello [Name], I’ve recorded you through your device’s camera while you were engaged in certain private activities. If you don’t want this recording to be sent to all your contacts, you need to send $900 in Bitcoin within the next 48 hours. This is not a joke; act fast to save yourself from embarrassment. [Pay Here](http://example-link.com?email=example@domain.com) Remember, I’m watching your every move.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "This email falsely claims to have recorded compromising footage and uses it as leverage to extort money from the recipient. It is a form of email extortion."
+        }
+    },
+    {
+        "question": "Subject: Your Personal Videos Will Be Shared - Pay $1000 Hi [Name], I have accessed your device and recorded videos of you that you definitely wouldn’t want shared with anyone. To prevent these from being sent to your friends, family, and colleagues, you must send $1000 in Bitcoin to the following address. You have 48 hours to comply, or the videos will be released. [Make Payment Here](http://example-link.com?email=example@domain.com) This is your only warning.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "This email threatens to share private videos unless the recipient pays a ransom, using fear and intimidation to coerce the recipient into complying."
+        }
+    },
+    {
+        "question": "Subject: Your Activities Have Been Recorded - Pay $1100 or Else! Hello [Name], I’ve been monitoring your online activity and have recorded some very personal moments that you definitely wouldn’t want anyone else to see. If you don’t want these videos to be sent to all your contacts, you need to send $1100 in Bitcoin within 48 hours. [Pay Here](http://example-link.com?email=example@domain.com) Don’t try to delete your devices or contact anyone about this; I’m watching everything.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "The email uses the threat of releasing 'personal moments' to extort money from the recipient, a common tactic in email extortion schemes."
+        }
+    },
+    {
+        "question": "Subject: I Know Your Secrets - $950 to Keep Them Private Hi [Name], I’ve been spying on you for months and have gathered enough material to ruin your life. If you don’t want these secrets to be exposed, you need to send $950 in Bitcoin within the next 24 hours. This is your only chance to keep your private life private. [Transfer Here](http://example-link.com?email=example@domain.com) Don’t think you can ignore this; I’m watching.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "This email falsely claims to have gathered compromising material and uses it to extort money from the recipient, leveraging fear and urgency."
+        }
+    },
+    {
+        "question": "Subject: Pay $1300 Now or Face Public Shame Hi [Name], I have access to your devices and have recorded some very embarrassing footage of you. If you don’t want this footage to be shared with your friends and family, you need to send $1300 in Bitcoin to the address below within 48 hours. [Make Payment Here](http://example-link.com?email=example@domain.com) This is your only chance to prevent a scandal.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "This email uses the threat of public embarrassment to extort money from the recipient, a classic tactic of email extortion scams."
+        }
+    }
 ]
