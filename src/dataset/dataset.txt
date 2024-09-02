@@ -2525,5 +2525,45 @@
             "spam_type": "CNS",
             "explanation": "The email is designed to collect personal information under the pretense of offering a free utility bill review, a common phishing tactic."
         }
+    },
+        {
+        "question": "Subject: Urgent Security Update for Your Amazon Account! Dear User, We have detected unusual activity on your Amazon account. To ensure your account's security, please click the link below to verify your account details: https://www.amazon.com/verify-account@security-update.com Please be cautious and complete the verification process within 24 hours to avoid any potential issues. Thank you, Amazon Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses an '@' symbol to mask the true malicious domain, which is 'security-update.com', pretending to be Amazon."
+        }
+    },
+    {
+        "question": "Subject: Important: Your Santander Account Needs Verification! Hello [Name], We noticed suspicious activity on your Santander account. To protect your account, please follow the link to verify your details: https://santander.secure-login.update-details.com Failure to verify within 48 hours may result in account suspension. Thank you for your prompt attention. Santander Customer Support.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses a misleading subdomain 'update-details.com' instead of 'santander.com', attempting to impersonate Santander."
+        }
+    },
+    {
+        "question": "Subject: Confirm Your PayPal Account Information Now! Dear Valued Customer, We have identified a security issue with your PayPal account. Please click the link below to confirm your account information: https://www.paypal.com/login-secure.app.com To ensure your security, do this immediately. Failure to do so may result in account suspension. Regards, PayPal Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses a deceptive TLD '.app.com' to mislead users into thinking it's a legitimate PayPal link."
+        }
+    },
+    {
+        "question": "Subject: Immediate Action Required: Your Google Account Security Alert! Hello [Name], We detected a security issue with your Google account. Please use the following link to address it: https://www.gοοgle.com/security-update.dev Ensure to act promptly to avoid any potential risks. Google Account Protection Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses Greek letters 'ο' instead of Latin 'o', trying to impersonate Google's official site."
+        }
+    },
+    {
+        "question": "Subject: Alert: Unusual Activity on Your Facebook Account! Hi [Name], We have detected unusual activity on your Facebook account. To secure your account, please click on the following link: https://www.facebook.com/security-check.exе To maintain the safety of your account, please complete this action within 24 hours. Best, Facebook Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL includes a misleading TLD '.exе', which is used to trick users into thinking it's a legitimate Facebook link."
+        }
     }
 ]
