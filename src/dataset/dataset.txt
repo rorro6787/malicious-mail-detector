@@ -1830,6 +1830,198 @@
             "explanation": "This email claims to have compromising material gathered through spyware and threatens to release it unless a payment is made. It uses fear tactics and an ultimatum to coerce the recipient into paying."
         }
     },
+        {
+        "question": "Subject: Immediate Action Required: $4000 to Secure Your Privacy. Hi [Name], Over the past few months, I’ve gained access to your entire digital life through a sophisticated malware I placed on your devices. This has allowed me to capture highly sensitive material, including videos of you during intimate moments. I’ve also collected your private conversations and emails. If you don’t want this information shared with your contacts, you need to transfer $4000 in Bitcoin to the following address: [Wallet Address]. You have 48 hours to act before I make everything public. Don’t ignore this warning.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "This email attempts to extort money by threatening to release compromising information unless a payment is made."
+        }
+    },
+    {
+        "question": "Subject: Your Reputation Is at Stake: $3000 Can Save You. Dear [Name], I’m writing to inform you that I’ve been monitoring your online activities for several months. During this time, I’ve recorded videos of you through your webcam and gathered sensitive information from your emails and chats. If you don’t want this information shared with your contacts, you need to send $3000 in Bitcoin to the address provided: [Wallet Address]. You have 48 hours to comply. After that, I will begin distributing the videos and other materials to your friends, family, and colleagues.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "The email uses threats and a deadline to extort money from the recipient by claiming to have compromising material."
+        }
+    },
+    {
+        "question": "Subject: Final Warning: $5000 or Your Private Life Goes Public. Hi [Name], I’ve been watching you for a long time. I installed spyware on your devices that has allowed me to record everything you do. I have videos of you in compromising situations, and I’ve downloaded your personal emails and chats. If you don’t want this material to be shared with your contacts, send $5000 in Bitcoin to [Wallet Address] within 48 hours. If you try to ignore this or go to the police, I’ll release everything. This is your only chance to prevent a major scandal.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "This email attempts to extort money by threatening to release compromising information unless a payment is made."
+        }
+    },
+    {
+        "question": "Subject: $4500 to Protect Your Privacy. Hi [Name], For the past few months, I’ve had full access to your devices, thanks to spyware that I installed when you clicked on a malicious link. During this time, I’ve recorded videos of you through your webcam and saved all your emails and chats. I have enough material to destroy your reputation. If you want to avoid this, you need to send $4500 in Bitcoin to the following address: [Wallet Address]. You have 48 hours to comply before I start sharing the videos and emails with your contacts.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "The email attempts to coerce the recipient into paying a ransom by threatening to release compromising information."
+        }
+    },
+    {
+        "question": "Subject: Urgent: $2500 to Avoid a Scandal. Hello [Name], I’ve been monitoring your online activities for several months through spyware I installed on your devices. I’ve recorded videos of you during private moments and collected sensitive emails and chat logs. If you don’t want this material to be sent to your contacts, you need to transfer $2500 in Bitcoin to [Wallet Address]. You have 48 hours to comply. If you ignore this message or try to go to the authorities, I will start distributing the material. This is your only chance to protect your privacy.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "This email uses fear tactics and threats to extort money from the recipient by claiming to have compromising material."
+        }
+    },
+    {
+        "question": "Subject: $5500 to Keep Your Secrets Safe. Hi [Name], I’ve been silently watching you for months. Through a sophisticated malware, I’ve gained access to your devices, allowing me to record you during private moments and collect sensitive information from your emails and chats. If you don’t want this information shared with your contacts, you need to send $5500 in Bitcoin to [Wallet Address]. You have 48 hours to act. If you don’t comply, I will start distributing the material, and your life will never be the same.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "This email uses threats and a strict deadline to try and extort money from the recipient by claiming to have compromising material."
+        }
+    },
+    {
+        "question": "Subject: Immediate Action Required: $3800 to Protect Your Privacy. Hello [Name], For several months, I’ve had access to your devices through a sophisticated spyware program. During this time, I’ve recorded compromising videos of you and saved your personal emails and chats. I have enough material to ruin your reputation. If you want to avoid this, you need to send $3800 in Bitcoin to [Wallet Address]. You have 48 hours to comply. If you try to ignore this or involve the authorities, I will start distributing the material to your contacts.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "This email attempts to extort money by threatening to release compromising information unless a payment is made."
+        }
+    },
+    {
+        "question": "Subject: Urgent: $3700 to Prevent a Scandal. Hi [Name], I’ve been monitoring your online activities for several months through spyware I installed on your devices. I’ve recorded videos of you during private moments and collected sensitive emails and chat logs. If you don’t want this material to be sent to your contacts, you need to transfer $3700 in Bitcoin to [Wallet Address]. You have 48 hours to comply. If you ignore this message or try to go to the authorities, I will start distributing the material. This is your only chance to protect your privacy.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "This email uses fear tactics and threats to extort money from the recipient by claiming to have compromising material."
+        }
+    },
+    {
+        "question": "Subject: Final Warning: $4200 or Your Private Life Goes Public. Hi [Name], I’ve been watching you for a long time. I installed spyware on your devices that has allowed me to record everything you do. I have videos of you in compromising situations, and I’ve downloaded your personal emails and chats. If you don’t want this material to be shared with your contacts, send $4200 in Bitcoin to [Wallet Address] within 48 hours. If you try to ignore this or go to the police, I’ll release everything. This is your only chance to prevent a major scandal.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "The email tries to coerce the recipient into paying a ransom by threatening to release compromising material."
+        }
+    },
+    {
+        "question": "Subject: $3900 to Keep Your Secrets Safe. Hi [Name], I’ve been silently watching you for months. Through a sophisticated malware, I’ve gained access to your devices, allowing me to record you during private moments and collect sensitive information from your emails and chats. If you don’t want this information shared with your contacts, you need to send $3900 in Bitcoin to [Wallet Address]. You have 48 hours to act. If you don’t comply, I will start distributing the material, and your life will never be the same.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "This email attempts to extort money by threatening to release compromising information unless a payment is made."
+        }
+    },
+    {
+        "question": "Subject: Immediate Action Required: $3400 to Prevent Life-Altering Consequences. Hello [Name], I need you to understand the gravity of the situation you’re currently facing. For several months, I’ve had complete access to your devices through a sophisticated spyware program that I installed when you unknowingly clicked on a malicious link. Since then, I’ve been silently observing every aspect of your online life. I’ve recorded several compromising videos of you through your webcam, capturing private moments that, if made public, would have devastating effects on your personal and professional life. Additionally, I’ve copied all your sensitive emails and chat logs, including conversations that you would never want to be exposed. With all this material in my possession, I have the ability to ruin your reputation and destroy your life with just a few clicks. I can send the videos and messages to everyone you know – your family, friends, colleagues – and there would be nothing you could do to stop it. However, I’m giving you a chance to avoid this nightmare. If you transfer $3400 in Bitcoin to the address below, I will delete everything I have on you and leave you alone. If you refuse or try to involve the authorities, I will start distributing the material. You have 48 hours to comply. After that, the videos and emails will be sent out, and your life will be changed forever. Bitcoin wallet address: [Wallet Address]. Don’t think this is a bluff – I am fully prepared to follow through on my threat if you do not cooperate. The clock is ticking, [Name]. Make the right choice.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "This email uses fear tactics and a strict deadline to extort money from the recipient by claiming to have compromising material."
+        }
+    },
+    {
+        "question": "Subject: $3600 to Avoid a Scandal. Hi [Name], I’ve been monitoring your online activities for several months through spyware I installed on your devices. I’ve recorded videos of you during private moments and collected sensitive emails and chat logs. If you don’t want this material to be sent to your contacts, you need to transfer $3600 in Bitcoin to [Wallet Address]. You have 48 hours to comply. If you ignore this message or try to go to the authorities, I will start distributing the material. This is your only chance to protect your privacy.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "The email uses threats and a strict deadline to try and extort money from the recipient by claiming to have compromising material."
+        }
+    },
+    {
+        "question": "Subject: Urgent: $3100 to Prevent a Scandal. Hello [Name], For several months, I’ve had access to your devices through a sophisticated spyware program. During this time, I’ve recorded compromising videos of you and saved your personal emails and chats. I have enough material to ruin your reputation. If you want to avoid this, you need to send $3100 in Bitcoin to [Wallet Address]. You have 48 hours to comply. If you try to ignore this or involve the authorities, I will start distributing the material to your contacts.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "This email attempts to extort money by threatening to release compromising information unless a payment is made."
+        }
+    },
+    {
+        "question": "Subject: Final Warning: $3300 to Keep Your Secrets Safe. Hi [Name], I’ve been silently watching you for months. Through a sophisticated malware, I’ve gained access to your devices, allowing me to record you during private moments and collect sensitive information from your emails and chats. If you don’t want this information shared with your contacts, you need to send $3300 in Bitcoin to [Wallet Address]. You have 48 hours to act. If you don’t comply, I will start distributing the material, and your life will never be the same.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "This email uses fear tactics and threats to extort money from the recipient by claiming to have compromising material."
+        }
+    },
+    {
+        "question": "Subject: $3200 to Protect Your Privacy. Hi [Name], For the past few months, I’ve had full access to your devices, thanks to spyware that I installed when you clicked on a malicious link. During this time, I’ve recorded videos of you through your webcam and saved all your emails and chats. I have enough material to destroy your reputation. If you want to avoid this, you need to send $3200 in Bitcoin to the following address: [Wallet Address]. You have 48 hours to comply before I start sharing the videos and emails with your contacts.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "This email tries to coerce the recipient into paying a ransom by threatening to release compromising material."
+        }
+    },
+    {
+        "question": "Subject: $3100 to Protect Your Privacy. Hello [Name], I need you to understand the gravity of the situation you’re currently facing. For several months, I’ve had complete access to your devices through a sophisticated spyware program that I installed when you unknowingly clicked on a malicious link. Since then, I’ve been silently observing every aspect of your online life. I’ve recorded several compromising videos of you through your webcam, capturing private moments that, if made public, would have devastating effects on your personal and professional life. Additionally, I’ve copied all your sensitive emails and chat logs, including conversations that you would never want to be exposed. With all this material in my possession, I have the ability to ruin your reputation and destroy your life with just a few clicks. I can send the videos and messages to everyone you know – your family, friends, colleagues – and there would be nothing you could do to stop it. However, I’m giving you a chance to avoid this nightmare. If you transfer $3100 in Bitcoin to the address below, I will delete everything I have on you and leave you alone. If you refuse or try to involve the authorities, I will start distributing the material. You have 48 hours to comply. After that, the videos and emails will be sent out, and your life will be changed forever. Bitcoin wallet address: [Wallet Address]. Don’t think this is a bluff – I am fully prepared to follow through on my threat if you do not cooperate. The clock is ticking, [Name]. Make the right choice.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "The email attempts to extort money by threatening to release compromising information unless a payment is made."
+        }
+    },
+    {
+        "question": "Subject: Immediate Action Required: $3700 to Protect Your Reputation. Hi [Name], I’ve been watching you for a long time. I installed spyware on your devices that has allowed me to record everything you do. I have videos of you in compromising situations, and I’ve downloaded your personal emails and chats. If you don’t want this material to be shared with your contacts, send $3700 in Bitcoin to [Wallet Address] within 48 hours. If you try to ignore this or go to the police, I’ll release everything. This is your only chance to prevent a major scandal.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "The email uses threats and a strict deadline to try and extort money from the recipient by claiming to have compromising material."
+        }
+    },
+    {
+        "question": "Subject: $4200 to Protect Your Privacy. Hi [Name], I’ve been silently watching you for months. Through a sophisticated malware, I’ve gained access to your devices, allowing me to record you during private moments and collect sensitive information from your emails and chats. If you don’t want this information shared with your contacts, you need to send $4200 in Bitcoin to [Wallet Address]. You have 48 hours to act. If you don’t comply, I will start distributing the material, and your life will never be the same.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "This email tries to coerce the recipient into paying a ransom by threatening to release compromising material."
+        }
+    },
+    {
+        "question": "Subject: Final Notice: $3300 to Avoid a Scandal. Hi [Name], I’ve been monitoring your online activities for several months through spyware I installed on your devices. I’ve recorded videos of you during private moments and collected sensitive emails and chat logs. If you don’t want this material to be sent to your contacts, you need to transfer $3300 in Bitcoin to [Wallet Address]. You have 48 hours to comply. If you ignore this message or try to go to the authorities, I will start distributing the material. This is your only chance to protect your privacy.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "The email attempts to extort money by threatening to release compromising information unless a payment is made."
+        }
+    },
+    {
+        "question": "Subject: $4400 to Prevent Life-Altering Consequences. Hello [Name], For several months, I’ve had access to your devices through a sophisticated spyware program. During this time, I’ve recorded compromising videos of you and saved your personal emails and chats. I have enough material to ruin your reputation. If you want to avoid this, you need to send $4400 in Bitcoin to [Wallet Address]. You have 48 hours to comply. If you try to ignore this or involve the authorities, I will start distributing the material to your contacts.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "This email uses fear tactics and threats to extort money from the recipient by claiming to have compromising material."
+        }
+    },
+    {
+        "question": "Subject: $3600 to Prevent a Scandal. Hi [Name], I’ve been monitoring your online activities for several months through spyware I installed on your devices. I’ve recorded videos of you during private moments and collected sensitive emails and chat logs. If you don’t want this material to be sent to your contacts, you need to transfer $3600 in Bitcoin to [Wallet Address]. You have 48 hours to comply. If you ignore this message or try to go to the authorities, I will start distributing the material. This is your only chance to protect your privacy.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "The email uses threats and a strict deadline to try and extort money from the recipient by claiming to have compromising material."
+        }
+    },
+    {
+        "question": "Subject: Final Notice: $3800 to Protect Your Reputation. Hi [Name], I’ve been silently watching you for months. Through a sophisticated malware, I’ve gained access to your devices, allowing me to record you during private moments and collect sensitive information from your emails and chats. If you don’t want this information shared with your contacts, you need to send $3800 in Bitcoin to [Wallet Address]. You have 48 hours to act. If you don’t comply, I will start distributing the material, and your life will never be the same.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "This email uses fear tactics and a strict deadline to extort money from the recipient by claiming to have compromising material."
+        }
+    },
+    {
+        "question": "Subject: Urgent: $3500 to Protect Your Privacy. Hi [Name], For several months, I’ve had access to your devices through a sophisticated spyware program. During this time, I’ve recorded compromising videos of you and saved your personal emails and chats. I have enough material to ruin your reputation. If you want to avoid this, you need to send $3500 in Bitcoin to [Wallet Address]. You have 48 hours to comply. If you try to ignore this or involve the authorities, I will start distributing the material to your contacts.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "The email tries to coerce the recipient into paying a ransom by threatening to release compromising material."
+        }
+    },
+    {
+        "question": "Subject: Immediate Action Required: $3400 to Prevent Life-Altering Consequences. Hello [Name], I need you to understand the gravity of the situation you’re currently facing. For several months, I’ve had complete access to your devices through a sophisticated spyware program that I installed when you unknowingly clicked on a malicious link. Since then, I’ve been silently observing every aspect of your online life. I’ve recorded several compromising videos of you through your webcam, capturing private moments that, if made public, would have devastating effects on your personal and professional life. Additionally, I’ve copied all your sensitive emails and chat logs, including conversations that you would never want to be exposed. With all this material in my possession, I have the ability to ruin your reputation and destroy your life with just a few clicks. I can send the videos and messages to everyone you know – your family, friends, colleagues – and there would be nothing you could do to stop it. However, I’m giving you a chance to avoid this nightmare. If you transfer $3400 in Bitcoin to the address below, I will delete everything I have on you and leave you alone. If you refuse or try to involve the authorities, I will start distributing the material. You have 48 hours to comply. After that, the videos and emails will be sent out, and your life will be changed forever. Bitcoin wallet address: [Wallet Address]. Don’t think this is a bluff – I am fully prepared to follow through on my threat if you do not cooperate. The clock is ticking, [Name]. Make the right choice.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CEC",
+            "explanation": "This email uses fear tactics and threats to extort money from the recipient by claiming to have compromising material."
+        }
+    },
     {
         "question": "Subject: Your Privacy Is at Stake - Act Now to Protect Yourself. Dear [Name], I’m sure you value your privacy and the trust you have built with your family, friends, and colleagues. Unfortunately, all of that is at risk now because of the careless actions you’ve taken online. For several months, I have had full control over your devices, thanks to a sophisticated spyware program that I installed when you visited a compromised website. This spyware has given me unrestricted access to everything on your computer and smartphone – your emails, chat histories, photos, and even your webcam. Over time, I have collected a significant amount of data that paints a very detailed picture of your life, including some aspects you would never want to be made public. The most damaging part is the videos I’ve recorded of you through your webcam. These videos capture you in moments of extreme vulnerability, engaging in activities that would be considered highly embarrassing if seen by others. I also have copies of all the files on your devices, including those that contain sensitive information such as financial documents and personal correspondence. With all this data at my disposal, I could easily ruin your life by leaking it to the people closest to you. Imagine the consequences if your family saw those videos or if your colleagues received copies of your private emails. Your reputation would be destroyed, and the fallout would be devastating. But there is a way out. I am not interested in ruining your life – all I want is a financial incentive to delete the data and leave you in peace. Here’s what you need to do: Transfer $2500 worth of Bitcoin to the following address. Once the payment is confirmed, I will erase all the data, remove the spyware from your devices, and you will never hear from me again. If you refuse to comply or try to involve the authorities, I will immediately begin distributing the data. You have 72 hours to make the payment, or the consequences will be dire. Don’t underestimate my resolve – I have done this before, and I am fully prepared to carry out my threat if you do not cooperate. Bitcoin wallet address: [Wallet Address]. This is your only chance to keep your life intact. Act now, and everything will go back to normal.",
         "answer": {
