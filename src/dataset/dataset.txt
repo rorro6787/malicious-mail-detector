@@ -1917,6 +1917,45 @@
         "spam_type": "CEC",
         "explanation": "This email uses a combination of fear, threats of public exposure, and a strict deadline to extort money from the recipient. The sender claims to have compromising material and attempts to coerce payment through fear tactics."
         }
+    },
+    {
+        "question": "Hi, I’m Laura, an energy tariff consultant. I’m reaching out to offer you a free and no-obligation analysis of your electricity/gas bill via WhatsApp. With the constant increases in rates, it’s easy to lose track of what you’re really paying. I work with the main energy companies to help you identify the best deals available right now. For example, Endesa is offering a 15% discount on the night rate, and Naturgy has a flat rate of $0.09/Kwh. If you provide me with your phone number or WhatsApp, I’ll contact you to review your bill and find a cheaper tariff that fits your needs. Don’t miss this opportunity to save. Best regards, Laura Sánchez.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "This email is spam because it asks for personal information under the guise of offering a bill analysis, potentially for fraudulent or phishing purposes."
+        }
+    },
+    {
+        "question": "Hello, I’m Marta, a specialist in energy savings. I’m contacting you to offer a detailed analysis of your electricity or gas bill, completely free and with no obligation, via WhatsApp. I know that energy rates have risen significantly and companies don’t always notify you. I work with the main energy companies to ensure you get the best deals available right now. For example, Iberdrola has an offer of $0.12/Kwh all day, and EDP offers discounts on your gas bill. If you share your WhatsApp number, I’ll contact you, review your bill, and advise you on the best option to start saving immediately. Best regards, Marta Pérez.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "This email is suspicious because it requests personal information under the pretext of offering help to save on energy bills, which could be a phishing attempt."
+        }
+    },
+    {
+        "question": "Good morning, I’m Carlos, a consultant in energy tariffs. I want to offer you a free analysis of your electricity and gas bills via WhatsApp, with no commitment. Rates have risen notably, and you may not have noticed the increases on your bills. I collaborate with companies like Endesa, Repsol, and Iberdrola to find the best current deals. For example, Endesa offers a flat rate of $0.11/Kwh and Repsol has a 20% discount on fuel. If you provide your phone number or WhatsApp, I’ll contact you to analyze your bill and show you how you could save on your next bill. Don’t miss this opportunity. Best regards, Carlos Ruiz.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "The email asks for personal information under the pretense of offering a free bill analysis, which is a common tactic in fraudulent emails to collect sensitive data."
+        }
+    },
+    {
+        "question": "Hi, I’m Ana, an energy tariff advisor. I’m reaching out to offer you a free and no-obligation analysis of your electricity and gas bills via WhatsApp. With the continuous rise in rates, many people are paying more than necessary without realizing it. I work with several energy companies and can help you find the best deal available. Currently, Iberdrola offers a rate of $0.10/Kwh all day, and Repsol has up to $500 in fuel discounts. If you share your WhatsApp number, I’ll contact you to review your bill and recommend the best option for saving money. Best regards, Ana Torres.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "This email is suspicious because it tries to collect personal information by offering a free bill analysis, which could be an attempt to scam or phish."
+        }
+    },
+    {
+        "question": "Hello, I’m Javier, an expert in energy bill analysis. I’m writing to offer you a free review of your electricity or gas bill via WhatsApp, with no obligation. Rates are going up every month, and you might not be aware of how much extra you’re paying. I work with several companies to offer you the best deals available. For example, Naturgy is offering a $0.09/Kwh rate during off-peak hours, and Iberdrola has a special 15% discount on the night rate. If you provide your WhatsApp number, I’ll contact you to review your bill and suggest ways you could reduce your energy costs. Best regards, Javier García.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "The email attempts to gather personal information by offering a supposed free bill analysis, a common approach in phishing scams."
+        }
     }
-
 ]
