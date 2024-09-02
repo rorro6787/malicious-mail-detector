@@ -9,7 +9,7 @@ def process_dataset():
 
     # Create Dataset with combined 'text' field
     dataset = Dataset.from_dict({
-        "text": [f"<s>[INST]: {item['question']} [/INST] {item['answer']} </s>" for item in data]
+        "text": [f"<s>[INST]: This is an email, it may or not include subjetc and sending information -> {item['question']} [/INST] {item['answer']} </s>" for item in data]
     })
 
     # dataset.save_to_disk("os.path.join(cd, 'custom_dataset')")
