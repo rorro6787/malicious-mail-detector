@@ -2565,5 +2565,293 @@
             "spam_type": "SURL",
             "explanation": "The URL includes a misleading TLD '.exе', which is used to trick users into thinking it's a legitimate Facebook link."
         }
+    },
+        {
+        "question": "Subject: Urgent: Action Required to Secure Your Amazoon Account! Dear [Name], We have detected some unusual activity on your Amazoon account that requires your immediate attention. To ensure your account remains secure, please verify your details by clicking the link below: https://www.amazoon.com/security-update@amazon-secure.dev Failure to act within 24 hours may result in temporary suspension of your account. Thank you for your prompt action. Regards, Amazoon Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses 'amazoon.com' with a deceptive '@' symbol to mask the actual malicious domain 'amazon-secure.dev'."
+        }
+    },
+    {
+        "question": "Subject: Immediate Verification Needed for Your GoogIe Account! Hello [Name], We have noticed some suspicious login attempts on your GoogIe account. To prevent unauthorized access, please verify your account information using the link below: https://www.googIe.com/account-verification.process.zip Click the link and follow the instructions to secure your account. Delaying this process could result in account restrictions. Best regards, Google Security.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses a lowercase 'l' that looks like a capital 'I' to imitate Google's official site, with a deceptive TLD '.zip'."
+        }
+    },
+    {
+        "question": "Subject: Important: Verify Your PayPaI Account Information! Dear [Name], We have detected suspicious activity on your PayPaI account and need you to verify your information to avoid potential security issues. Click on the link below to complete the verification process: https://secure.paypaI.com/update-account-info.app Ensure you complete this verification within 48 hours to keep your account safe. Thank you, PayPaI Support Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses 'PayPaI' with an uppercase 'i' instead of a lowercase 'L', and a misleading TLD '.app' to disguise the true malicious site."
+        }
+    },
+    {
+        "question": "Subject: Alert: Immediate Action Required for Your Faceb00k Account! Hi [Name], We've detected unusual activity on your Faceb00k account. To prevent any issues, please use the link below to verify your account information: https://www.faceb00k.com/security-check-form.exе Click the link and follow the instructions. Failure to verify within 24 hours may lead to temporary suspension. Regards, Facebook Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses 'Faceb00k' with zeros instead of 'o' and a deceptive TLD '.exе', trying to mimic Facebook's official site."
+        }
+    },
+    {
+        "question": "Subject: Immediate Attention Required: Update Your PayPaI Security Settings! Dear [Name], We have identified some suspicious activity on your PayPaI account. To prevent any potential issues, please click on the following link to update your security settings: https://paypaI-secure-login.site.com/confirm-details Click the link and follow the instructions to secure your account. Please act within the next 48 hours. Thank you, PayPaI Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses 'PayPaI' with an uppercase 'I' and a misleading subdomain 'site.com' to create a fraudulent link."
+        }
+    },
+    {
+        "question": "Subject: Urgent Notice: Secure Your Account at BankofAmerica! Hello [Name], There has been unusual activity detected on your BankofAmerica account. To prevent any unauthorized access, please verify your account details by clicking the link below: https://bankofamericа.com/verify-info@secure-zone.app Please complete this verification within 24 hours to ensure your account remains secure. Best regards, Bank of America Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses a Cyrillic 'а' instead of a Latin 'a' and includes a misleading '@' symbol to impersonate Bank of America's site."
+        }
+    },
+    {
+        "question": "Subject: Action Required: Update Your Account Information with Citibank! Dear [Name], We have detected irregularities with your Citibank account. Please use the link below to update your account information: https://www.citibank.com/account-update-secure.exе Failure to act within 48 hours may result in account limitations. Thank you for your prompt attention. Citibank Support.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL includes a deceptive TLD '.exе' to mimic Citibank's legitimate site, attempting to trick users into providing personal information."
+        }
+    },
+    {
+        "question": "Subject: Important Security Update for Your Amazon Account! Dear [Name], We've noticed some unusual activity on your Amazon account. To protect your account, please click on the following link to update your security settings: https://www.amaz0n.com/account-verification@secure-update.app Make sure to complete this action within 24 hours to avoid any potential issues. Regards, Amazon Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses 'amaz0n.com' with a zero instead of 'o' and a deceptive '@' symbol to mask the actual malicious domain."
+        }
+    },
+    {
+        "question": "Subject: Immediate Verification Required for Your Google Account! Hello [Name], There has been suspicious activity on your Google account. Please verify your account information by clicking the link below: https://www.googIe.com/security-check-form.dev Act now to ensure the safety of your account. Failure to verify within 24 hours may result in temporary restrictions. Best regards, Google Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses 'googIe.com' with a capital 'I' and a deceptive TLD '.dev' to imitate Google's official website."
+        }
+    },
+    {
+        "question": "Subject: Urgent: Your eBay Account Needs Immediate Attention! Dear [Name], We've detected unusual activity on your eBay account. Please click the link below to verify your details and secure your account: https://ebay.secure-login.com/confirm-details@ebay-security.dev Please complete the verification within 48 hours to avoid account suspension. Thank you, eBay Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses a misleading subdomain 'ebay-security.dev' and an '@' symbol to create a deceptive link mimicking eBay."
+        }
+    },
+    {
+        "question": "Subject: Secure Your Netflix Account – Immediate Action Required! Hello [Name], We've identified suspicious activity on your Netflix account. To prevent any potential issues, please verify your account information using the following link: https://netf1ix.com/security-update@netflix-support.app Ensure to complete this action within 24 hours to maintain your account's security. Regards, Netflix Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses 'netf1ix.com' with a one instead of 'l' and a deceptive '@' symbol to disguise the actual malicious site."
+        }
+    },
+    {
+        "question": "Subject: Immediate Verification Needed for Your Microsoft Account! Dear [Name], We have detected unusual activity on your Microsoft account. To prevent any issues, please verify your details by clicking the link below: https://www.m1crosoft.com/security-update@msft-support.dev Please complete this action within 48 hours to avoid any potential problems. Thank you, Microsoft Support Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses 'm1crosoft.com' with a one instead of 'i' and a misleading TLD '.dev' to impersonate Microsoft."
+        }
+    },
+        {
+        "question": "Subject: Urgent: Action Required for Your PayPall Account! Dear [Name], We have detected suspicious activity on your PayPall account. To ensure your account remains secure, please follow the link below to verify your information: https://www.paypall.com/security-update@paypal.secure-check.app Failure to act within 24 hours may result in a temporary suspension of your account. Regards, PayPall Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses 'paypall.com' with a double 'l' and a deceptive '@' symbol to disguise the real malicious site."
+        }
+    },
+    {
+        "question": "Subject: Important Security Alert: Update Your Microsof Account Now! Hello [Name], We have noticed some unusual activity on your Microsof account. For your protection, please update your account information using the link below: https://microsof.com/security-update@msft-verify.dev Click the link and follow the instructions within 48 hours to keep your account secure. Best regards, Microsoft Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses 'Microsof' with a missing 't' and a deceptive TLD '.dev' to trick users into thinking it's Microsoft."
+        }
+    },
+    {
+        "question": "Subject: Immediate Verification Required for Your Amaxon Account! Dear [Name], Your Amaxon account has encountered suspicious activity. Please verify your details immediately by clicking the following link: https://www.amaxon.com/security-check@amazon-protection.dev Delaying action may result in temporary restrictions on your account. Regards, Amaxon Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses 'amaxon.com' with a missing 'z' and a misleading TLD '.dev' to mimic Amazon."
+        }
+    },
+    {
+        "question": "Subject: Alert: Verify Your Account with Google! Hello [Name], We have detected potential issues with your Google account. To resolve this, please use the link below to verify your account details: https://secure.googlе.com/update-details@google-security.app Ensure you complete this verification within 24 hours to prevent account suspension. Thank you, Google Support.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses a Cyrillic 'е' instead of 'e' and a misleading TLD '.app' to create a fraudulent link."
+        }
+    },
+    {
+        "question": "Subject: Action Needed: Secure Your Bank of Amercia Account! Dear [Name], Unusual activity has been detected on your Bank of Amercia account. Please click the link below to secure your account: https://www.bankofamercia.com/account-update@secure-zone.dev Click and follow the instructions to prevent any issues. Regards, Bank of Amercia Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses 'Bank of Amercia' with a misspelling and a deceptive TLD '.dev' to impersonate Bank of America."
+        }
+    },
+    {
+        "question": "Subject: Immediate Action Required: Update Your Netfllix Account! Hi [Name], We've detected suspicious activity on your Netfllix account. For your security, please verify your account information using the following link: https://netfllix.com/account-update@netflix-check.app Act within 48 hours to avoid any restrictions on your account. Best, Netflix Support.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses 'Netfllix' with double 'l' and a misleading TLD '.app' to create a deceptive link."
+        }
+    },
+    {
+        "question": "Subject: Important Notice: Verify Your YourBank Account! Hello [Name], We've noticed irregularities with your YourBank account. Please click the link below to verify your details and secure your account: https://secure.yourbank.com/update-info@yourbank-security.exе Act quickly to prevent any disruptions to your account. Regards, YourBank Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses 'yourbank.com' and includes a deceptive TLD '.exе' to trick users into thinking it's a legitimate YourBank link."
+        }
+    },
+    {
+        "question": "Subject: Urgent: Update Your Paypal Account Information! Dear [Name], We have detected some unusual activity on your Paypal account. To ensure your account's security, please follow the link below: https://www.paypaI.com/security-check@paypal-update.zip Failure to act within 24 hours may result in a temporary suspension. Thank you, Paypal Support Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses 'PaypaI' with an uppercase 'I' and a deceptive TLD '.zip' to create a misleading link."
+        }
+    },
+    {
+        "question": "Subject: Immediate Attention Needed for Your Gooogle Account! Hello [Name], Unusual login attempts have been detected on your Gooogle account. To protect your account, please verify your information here: https://www.gooogle.com/account-update@google-security.app Please complete this action within 48 hours to avoid account suspension. Regards, Google Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses 'Gooogle' with extra 'o's and a deceptive TLD '.app' to impersonate Google."
+        }
+    },
+    {
+        "question": "Subject: Urgent Security Alert for Your Amazom Account! Dear [Name], We have identified suspicious activity on your Amazom account. To ensure your account's safety, click the link below to update your information: https://www.amazom.com/security-check@amazon-secure.site Please act within 24 hours to prevent any potential issues. Best regards, Amazom Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses 'amazom.com' with a missing 'z' and a deceptive TLD '.site' to mimic Amazon."
+        }
+    },
+    {
+        "question": "Subject: Immediate Verification Needed for Your Microsoft Account! Hello [Name], We have detected unusual activity on your Microsoft account. Please verify your details immediately using the link below: https://secure.m1crosoft.com/update-info@msft-security.dev Failure to complete this verification within 48 hours may lead to account restrictions. Thank you, Microsoft Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses 'm1crosoft.com' with a '1' instead of 'i' and a deceptive TLD '.dev' to imitate Microsoft."
+        }
+    },
+    {
+        "question": "Subject: Action Required: Verify Your eBay Account Information! Dear [Name], We've detected unusual activity on your eBay account. To secure your account, please click the link below: https://ebay.secure-update.com/confirm-details@ebay-check.app Follow the instructions within 48 hours to avoid any account issues. Regards, eBay Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses a deceptive subdomain 'secure-update.com' and a misleading TLD '.app' to create a fraudulent link."
+        }
+    },
+        {
+        "question": "Subject: Urgent: Verify Your PayPall Account Information! Hello David, We have noticed unusual activity on your PayPall account. For your protection, please verify your details immediately using the link below: https://secure.paypall.com/verify-info@paypall-check.site Failure to complete this verification within 48 hours may result in account restrictions. Thank you, PayPall Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses 'paypall.com' with a double 'l' and a misleading TLD '.site' to impersonate PayPal."
+        }
+    },
+    {
+        "question": "Subject: Immediate Action Required: Update Your Amaxon Account! Hello Jerome, We have detected suspicious activity on your Amaxon account. Please verify your account details by clicking the link below: https://www.amaxon.com/account-update@amazon-secure.dev Failure to do so within 48 hours may lead to account suspension. Best regards, Amaxon Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses 'amaxon.com' with a missing 'z' and a deceptive TLD '.dev' to mimic Amazon."
+        }
+    },
+    {
+        "question": "Subject: Important: Verify Your Google Account Now! Hello John, We have detected some unusual activity on your Google account. To secure your account, please use the link below to verify your information: https://secure.goоgle.com/update-details@google-secure.app Please complete this verification within 48 hours to avoid any restrictions. Regards, Google Support Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses a Cyrillic 'о' instead of the Latin 'o' and a deceptive TLD '.app' to imitate Google."
+        }
+    },
+    {
+        "question": "Subject: Action Needed: Confirm Your eBay Account Information! Hello Carlos, We've noticed some unusual activity on your eBay account. To secure your account, please verify your details immediately by clicking the link below: https://ebay.secure-update.com/confirm-details@ebay-security.zip Failure to act within 48 hours may lead to account restrictions. Thank you, eBay Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses a deceptive subdomain 'secure-update.com' and a misleading TLD '.zip' to create a fraudulent link."
+        }
+    },
+    {
+        "question": "Subject: Urgent: Action Required for Your Netfllix Account! Hello Sarah, We have detected unusual activity on your Netfllix account. Please verify your details by clicking the link below: https://secure.netfllix.com/update-info@netflix-check.exе Failure to complete this verification within 48 hours may result in restrictions. Regards, Netfllix Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses 'Netfllix' with double 'l' and a deceptive TLD '.exе' to mimic Netflix."
+        }
+    },
+    {
+        "question": "Subject: Immediate Verification Needed: Secure Your Apple Account! Hello Emily, We have detected some unusual activity on your Apple account. Please use the following link to verify your details: https://secure.apрle.com/update-info@apple-secure.dev Failure to act within 48 hours may lead to restrictions. Best regards, Apple Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses a Cyrillic 'р' instead of the Latin 'p' and a misleading TLD '.dev' to impersonate Apple."
+        }
+    },
+    {
+        "question": "Subject: Immediate Attention Required for Your Bank of Amercia Account! Hello Michael, Unusual activity has been detected on your Bank of Amercia account. To secure your account, please verify your details by clicking the link below: https://www.bankofamercia.com/account-update@bankofamerica-secure.app Failure to do so within 48 hours may result in account restrictions. Regards, Bank of Amercia Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses 'Bank of Amercia' with a misspelling and a deceptive TLD '.app' to impersonate Bank of America."
+        }
+    },
+    {
+        "question": "Subject: Urgent: Verify Your Microsoft Account Information! Hello Laura, We have detected unusual activity on your Microsoft account. Please verify your details immediately using the link below: https://secure.micrоsoft.com/update-info@msft-security.zip Failure to complete this verification within 48 hours may result in account restrictions. Thank you, Microsoft Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses a Cyrillic 'о' instead of the Latin 'o' and a misleading TLD '.zip' to mimic Microsoft."
+        }
+    },
+    {
+        "question": "Subject: Action Required: Confirm Your Amazon Account! Hello Lisa, We've detected some unusual activity on your Amazon account. Please use the link below to verify your details: https://www.amazoon.com/security-check@amazon-secure.dev Failure to act within 48 hours may lead to account restrictions. Regards, Amazon Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses 'amazoon.com' with an extra 'o' and a deceptive TLD '.dev' to mimic Amazon."
+        }
+    },
+    {
+        "question": "Subject: Immediate Verification Required for Your Paypal Account! Hello Robert, We have detected suspicious activity on your Paypal account. To secure your account, please verify your details using the following link: https://secure.paypaI.com/verify-info@paypal-security.dev Failure to complete this verification within 48 hours may result in restrictions. Thank you, Paypal Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses 'PaypaI' with an uppercase 'I' and a deceptive TLD '.dev' to impersonate PayPal."
+        }
+    },
+    {
+        "question": "Subject: Urgent: Verify Your Yahoo Account! Hello Anna, We've detected unusual activity on your Yahoo account. Please verify your account information by clicking the link below: https://secure.yahoо.com/update-details@yahoo-security.app Failure to complete this verification within 48 hours may lead to account restrictions. Regards, Yahoo Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses a Cyrillic 'о' instead of the Latin 'o' and a misleading TLD '.app' to impersonate Yahoo."
+        }
+    },
+    {
+        "question": "Subject: Immediate Action Required: Secure Your YourBank Account! Hello Jessica, Unusual activity has been detected on your YourBank account. Please click the link below to verify your details: https://secure.yourbank.com/update-info@yourbank-security.zip Failure to act within 48 hours may lead to account restrictions. Best regards, YourBank Security Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "SURL",
+            "explanation": "The URL uses a deceptive TLD '.zip' to trick users into thinking it's a legitimate YourBank link."
+        }
     }
 ]
