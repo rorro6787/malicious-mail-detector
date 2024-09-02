@@ -1957,5 +1957,174 @@
             "spam_type": "CNS",
             "explanation": "The email attempts to gather personal information by offering a supposed free bill analysis, a common approach in phishing scams."
         }
+    },
+    {
+        "question": "Dear Customer, We noticed that your electricity bill has been consistently high, and we believe you could save a significant amount. Our energy consultants are offering a free, no-obligation review of your current energy plan. Simply reply with your WhatsApp number, and one of our specialists will guide you through the process of lowering your bill. Companies like Iberdrola and Repsol have new tariffs that could save you up to 20% annually. Don’t wait – start saving today! Best regards, Energy Savings Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "This email asks for personal information under the pretext of offering a free bill review, a tactic often used in phishing scams to collect sensitive data."
+        }
+    },
+    {
+        "question": "Hi there, Are you aware that you might be overpaying for your electricity? As an independent energy consultant, I can help you find a better rate. Send me your latest bill via WhatsApp, and I’ll compare it against the top 15 energy providers in your area. You could be eligible for discounts from companies like Endesa and Naturgy. This service is free, and there’s no obligation to switch providers. Let’s work together to cut your energy costs. Best regards, Maria Lopez.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "The email attempts to collect personal information by offering a free analysis of your energy bill, which is a common method used by scammers."
+        }
+    },
+    {
+        "question": "Hello, Do you feel like your energy bills are too high? We offer a free service to analyze your electricity and gas bills. By comparing your current plan with those offered by major companies, like Iberdrola and Repsol, we can help you find significant savings. If you’re interested, just send us your WhatsApp number, and we’ll start the process immediately. There’s no cost to you, and no obligation to switch providers. Best regards, Energy Advisors Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "This email is likely a phishing attempt, as it requests personal information in exchange for a supposed free service."
+        }
+    },
+    {
+        "question": "Dear [Name], Your energy provider may be overcharging you without your knowledge. We specialize in auditing electricity and gas bills to find hidden charges and unnecessary costs. Contact us via WhatsApp for a free review. We work with leading providers like Endesa and Iberdrola to ensure you get the best rate available. Don’t let high bills drain your finances – let us help you save. Regards, Bill Audit Services.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "The email asks for personal contact information and promises a free service, which is often a tactic used in scams."
+        }
+    },
+    {
+        "question": "Hi, This is Anna from EnergyCompare. I’ve noticed that many customers are unaware of the savings they could achieve by switching energy providers. I’m offering a free analysis of your electricity and gas bills. Just send me your WhatsApp number, and I’ll get started. You could save hundreds of dollars a year by switching to a better rate with companies like Repsol and Endesa. Don’t miss out on these savings. Regards, Anna.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "This email is suspicious because it seeks to collect personal information under the guise of offering a free service, which is a common scam tactic."
+        }
+    },
+    {
+        "question": "Dear Homeowner, Are you tired of overpaying for your electricity and gas? We can help you find a more affordable energy plan. Our service is completely free, and we can conduct a thorough review of your bills via WhatsApp. Simply provide your WhatsApp number, and we’ll take care of the rest. With savings opportunities from top providers like Iberdrola and Repsol, you can lower your monthly expenses significantly. Best regards, Home Energy Solutions.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "This email is likely a phishing attempt, using the promise of a free service to collect personal information."
+        }
+    },
+    {
+        "question": "Hello, It’s likely that your energy provider is charging you more than necessary. We offer a free, no-obligation consultation to analyze your current energy bill and find a cheaper rate. By simply providing your WhatsApp number, you can gain access to exclusive deals from companies like Naturgy and Endesa. Don’t let high energy costs drain your budget – contact us today. Regards, Energy Savings Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "The email tries to collect personal information by offering a free bill analysis, which is a common phishing tactic."
+        }
+    },
+    {
+        "question": "Hi [Name], Are your energy bills too high? We can help you reduce them. We offer a free review of your electricity and gas bills, and we’ll find you the best deals from top providers like Iberdrola and Repsol. Just share your WhatsApp number, and we’ll get started right away. There’s no obligation, and you could save a lot of money each month. Best regards, Energy Experts.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "This email is likely an attempt to gather personal information under the guise of offering a free service, which is a common phishing method."
+        }
+    },
+    {
+        "question": "Dear Customer, I’m writing to offer you a free, no-obligation analysis of your current electricity and gas bills. We can identify potential savings by comparing your rates with those from companies like Iberdrola and Endesa. If you provide your WhatsApp number, I’ll personally conduct the analysis and help you lower your monthly expenses. Don’t miss out on this opportunity to save money. Regards, Energy Solutions Advisor.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "The email seeks to collect personal contact information, which is often a tactic used in scams."
+        }
+    },
+    {
+        "question": "Hi, This is Paul from UtilityCheck. We’ve helped thousands of customers reduce their energy bills, and we’d love to help you too. By reviewing your latest bill, we can identify areas where you’re being overcharged and suggest a better rate. This service is free, and there’s no obligation. Simply share your WhatsApp number, and I’ll get started on your bill analysis. Companies like Repsol and Iberdrola have great deals that you might be missing out on. Best regards, Paul Simmons.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "This email is likely phishing, as it requests personal information in exchange for a supposed free service."
+        }
+    },
+    {
+        "question": "Hello [Name], Did you know you could be paying too much for your energy? I specialize in finding better energy deals for customers like you. By sending me your WhatsApp number, I can conduct a free, no-obligation review of your electricity and gas bills. Companies like Iberdrola and Repsol offer competitive rates that could save you hundreds each year. Let’s work together to reduce your monthly expenses. Regards, Energy Specialist.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "The email is suspicious because it attempts to collect personal information through the promise of a free service, a common phishing tactic."
+        }
+    },
+    {
+        "question": "Hi, I’m writing to offer you a free energy bill analysis. By reviewing your electricity and gas bills, we can identify areas where you’re being overcharged and help you switch to a cheaper rate. This service is completely free, and there’s no obligation to switch providers. Just provide your WhatsApp number, and we’ll get started. Companies like Endesa and Iberdrola have great deals that you might be missing out on. Best regards, Energy Savings Consultant.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "This email tries to gather personal information by offering a free service, which is a common phishing tactic."
+        }
+    },
+    {
+        "question": "Hello, Are you tired of high energy bills? We can help you find a better rate by reviewing your current electricity and gas bills. This service is free, and there’s no obligation to switch providers. By providing your WhatsApp number, you can gain access to exclusive deals from companies like Iberdrola and Repsol. Don’t let high energy costs drain your finances – contact us today. Regards, Energy Savings Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "The email is likely a phishing attempt, using the promise of a free service to collect personal information."
+        }
+    },
+    {
+        "question": "Hi there, This is Michael from EnergyConsult. I’m reaching out to offer you a free review of your electricity and gas bills. With energy rates on the rise, it’s important to make sure you’re getting the best deal possible. By sending me your WhatsApp number, I can start the analysis right away and help you find savings with top providers like Iberdrola and Repsol. This service is free, and there’s no obligation. Best regards, Michael Johnson.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "This email is suspicious because it requests personal information under the pretext of offering a free service, which is a common phishing tactic."
+        }
+    },
+    {
+        "question": "Dear [Name], Are you aware that your energy bills might be higher than they need to be? We offer a free, no-obligation review of your electricity and gas bills. By analyzing your current plan, we can help you find savings with top providers like Endesa and Iberdrola. Simply share your WhatsApp number, and we’ll get started on your bill analysis. Don’t miss this opportunity to reduce your energy costs. Regards, Energy Savings Specialist.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "The email attempts to collect personal information by offering a free bill review, which is a common method used by scammers."
+        }
+    },
+    {
+        "question": "Hi, I’m reaching out to offer you a free energy bill analysis. Many people are paying too much for their electricity and gas without realizing it. By reviewing your latest bill, I can help you find a better rate with companies like Repsol and Endesa. This service is free, and there’s no obligation to switch providers. Just provide your WhatsApp number, and I’ll get started on your bill analysis. Best regards, Energy Consultant.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "This email is likely a phishing attempt, using the promise of a free service to collect personal information."
+        }
+    },
+    {
+        "question": "Hello [Name], Are you interested in lowering your energy bills? I offer a free service that reviews your electricity and gas bills to identify potential savings. By simply providing your WhatsApp number, you can get access to exclusive deals from top providers like Iberdrola and Repsol. There’s no cost to you, and no obligation to switch providers. Don’t miss out on this opportunity to save money. Regards, Energy Savings Advisor.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "The email is suspicious because it seeks to collect personal information under the guise of offering a free service, a common phishing tactic."
+        }
+    },
+    {
+        "question": "Hi there, This is Emily from BillSaver. I’m reaching out to help you reduce your energy bills. By reviewing your electricity and gas bills, I can identify areas where you’re being overcharged and suggest a better rate. This service is completely free, and there’s no obligation. Simply share your WhatsApp number, and I’ll get started on your bill analysis. Companies like Endesa and Iberdrola have great deals that you might be missing out on. Best regards, Emily Clark.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "This email tries to gather personal information by offering a free service, which is a common phishing tactic."
+        }
+    },
+    {
+        "question": "Dear Customer, Are your energy bills too high? We can help you reduce them by reviewing your current electricity and gas plans. Our service is free, and there’s no obligation to switch providers. Simply provide your WhatsApp number, and one of our consultants will get started on your bill analysis. We work with top companies like Iberdrola and Repsol to find the best rates for our customers. Don’t miss out on this opportunity to save money. Regards, Energy Savings Team.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "The email is likely a phishing attempt, using the promise of a free service to collect personal information."
+        }
+    },
+    {
+        "question": "Hi [Name], Are you tired of overpaying for your energy? We can help you find a better rate by reviewing your current electricity and gas bills. This service is free, and there’s no obligation to switch providers. By providing your WhatsApp number, you can gain access to exclusive deals from companies like Iberdrola and Repsol. Don’t let high energy costs drain your finances – contact us today. Regards, Energy Advisor.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "The email attempts to collect personal information under the guise of offering a free service, a common phishing tactic."
+        }
+    },
+    {
+        "question": "Hello, I’m writing to offer you a free energy bill analysis. Many people are paying too much for their electricity and gas without realizing it. By reviewing your latest bill, I can help you find a better rate with companies like Repsol and Endesa. This service is free, and there’s no obligation to switch providers. Just provide your WhatsApp number, and I’ll get started on your bill analysis. Best regards, Energy Consultant.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "This email is suspicious because it seeks to collect personal information under the pretext of offering a free service, a common phishing tactic."
+        }
     }
+
 ]
