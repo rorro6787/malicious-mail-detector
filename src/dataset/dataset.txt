@@ -2397,6 +2397,133 @@
             "spam_type": "CNS",
             "explanation": "This email is suspicious because it seeks to collect personal information under the pretext of offering a free service, a common phishing tactic."
         }
+    },
+    {
+        "question": "Subject: Free Review of Your Utility Bills! Hi Sarah, I’m reaching out to offer a complimentary review of your recent electricity and gas bills. Many individuals are overpaying for their energy without even realizing it. If you send me your latest bill, I can help identify if you’re eligible for better rates with providers like E.ON and British Gas. There’s no obligation, and this service is entirely free. Just reply with your WhatsApp number, and I’ll begin the analysis for you. Looking forward to assisting you, Energy Advisor.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "This email is designed to collect personal information under the guise of offering a free service, which is a common tactic used in phishing schemes."
+        }
+    },
+    {
+        "question": "Subject: Get a Free Energy Savings Assessment! Dear Michael, I’m offering a no-cost assessment of your electricity and gas bills. It’s common for people to be paying more than necessary for their energy needs. By reviewing your latest bill, I can help you find potential savings with companies like TotalEnergies and Shell Energy. If you’re interested, please share your WhatsApp contact, and I’ll initiate the review. Best regards, Your Energy Consultant.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "The email attempts to gather personal information under the pretense of providing a free service, which is a typical phishing approach."
+        }
+    },
+    {
+        "question": "Subject: Complimentary Analysis of Your Utility Bills! Hello Emily, Are you aware that you might be overpaying for your energy? I offer a free review of your recent electricity and gas bills to find out if you can get a better deal from suppliers like Npower or Octopus Energy. There’s no cost or obligation involved. Simply reply with your WhatsApp number, and I’ll start analyzing your bill right away. Warm regards, Energy Savings Specialist.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "This email tries to collect personal details by promising a free bill review, which is often used to scam recipients in phishing attacks."
+        }
+    },
+    {
+        "question": "Subject: Save on Your Energy Bills – Free Review! Hi Jessica, I’m offering a free service to analyze your recent electricity and gas bills. Many people are paying higher rates without knowing there are better options available. By reviewing your bill, I can help you find better rates with companies like EDF and Bulb. Just provide your WhatsApp contact information, and I’ll take care of the rest. Best wishes, Your Energy Expert.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "The email seeks to obtain personal information under the guise of offering a free energy bill review, a tactic frequently used in phishing scams."
+        }
+    },
+    {
+        "question": "Subject: Free Bill Analysis – Discover Savings! Hello Robert, I’m offering a free analysis of your recent electricity and gas bills. It’s likely you’re overpaying for your energy. By reviewing your bill, I can help you secure better rates with top providers like ScottishPower and Green Energy. This service is free, and there’s no obligation to switch. Just send me your WhatsApp number to get started. Regards, Energy Savings Consultant.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "The email uses the offer of a free bill analysis to collect personal information, a common phishing technique."
+        }
+    },
+    {
+        "question": "Subject: Complimentary Energy Bill Review – Act Now! Dear Lisa, Many people are unknowingly paying too much for their electricity and gas. I offer a free review of your latest bill to help you find better rates with companies like PSEG and Constellation Energy. If you’re interested, please reply with your WhatsApp number so I can begin the analysis. This service is completely free and comes with no obligation. Sincerely, Energy Bill Advisor.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "This email requests personal contact information under the guise of providing a free energy bill review, a strategy often used in phishing schemes."
+        }
+    },
+    {
+        "question": "Subject: Free Utility Bill Check – Save Money! Hello Anna, I’m offering a no-cost review of your recent electricity and gas bills. Many people are overcharged on their energy bills without knowing it. By analyzing your bill, I can help you find better rates with suppliers like Vattenfall and Eversource. If you want to take advantage of this free service, just reply with your WhatsApp number. Best regards, Energy Consultant.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "The email seeks to collect personal information by promising a free utility bill review, a tactic commonly used in phishing attacks."
+        }
+    },
+    {
+        "question": "Subject: Get a Free Review of Your Energy Bills! Hi Tom, Did you know you could be paying too much for your electricity and gas? I’m offering a free review of your latest bills to help you find better rates with companies like Ameren and CenterPoint Energy. To get started, just send me your WhatsApp contact. There’s no cost or obligation involved. Looking forward to helping you save, Energy Savings Specialist.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "The email offers a free service to obtain personal contact information, which is a typical phishing strategy."
+        }
+    },
+    {
+        "question": "Subject: Complimentary Energy Bill Review – No Cost! Hello Natalie, I’m reaching out to offer a free review of your recent electricity and gas bills. Many people unknowingly pay higher rates. By reviewing your bill, I can help you find better deals with providers like Southern Company and Xcel Energy. If you’re interested in this free service, simply reply with your WhatsApp number, and I’ll get started. Warm regards, Your Energy Consultant.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "This email tries to collect personal details under the pretense of a free service, a common phishing technique."
+        }
+    },
+    {
+        "question": "Subject: Free Bill Analysis to Cut Costs! Hi Oliver, I’m offering a free analysis of your recent electricity and gas bills. Many individuals are overpaying for their energy services. If you share your latest bill with me, I can help you find better rates with providers like Enel and Direct Energy. There’s no cost involved and no obligation. Just reply with your WhatsApp contact to start the review. Regards, Energy Savings Advisor.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "The email seeks to obtain personal contact information under the guise of a free bill analysis, a common phishing tactic."
+        }
+    },
+    {
+        "question": "Subject: Free Energy Bill Assessment – Act Fast! Hello Megan, Did you know you might be overpaying for your electricity and gas? I offer a free review of your latest bills to help you find better rates with top providers like Reliant Energy and Fortis. To take advantage of this free service, simply reply with your WhatsApp number. There’s no cost or obligation. Best, Energy Bill Consultant.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "This email attempts to collect personal information by offering a free bill review, a tactic commonly used in phishing scams."
+        }
+    },
+    {
+        "question": "Subject: Complimentary Analysis of Your Utility Bills – Save Money! Hi James, I’m reaching out to offer a free assessment of your recent electricity and gas bills. Many people are overcharged on their energy bills without realizing it. If you provide me with your latest bill, I can help you find better rates with companies like AEP and Dominion Energy. Just reply with your WhatsApp contact to get started. Warm regards, Your Energy Savings Expert.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "The email is designed to collect personal information by offering a free utility bill analysis, a strategy often used in phishing schemes."
+        }
+    },
+    {
+        "question": "Subject: Free Review of Your Energy Bills – Limited Time Offer! Dear Emma, I’m offering a free review of your recent electricity and gas bills to help you find out if you’re overpaying. Many individuals unknowingly pay too much. By examining your bill, I can identify better rates with providers such as National Grid and Constellation. To take advantage of this free service, please reply with your WhatsApp number. Best regards, Energy Bill Specialist.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "This email attempts to gather personal details under the guise of offering a free bill review, which is a common phishing tactic."
+        }
+    },
+    {
+        "question": "Subject: Complimentary Bill Analysis to Find Savings! Hello Mark, I’m offering a free analysis of your recent utility bills. It’s possible that you’re paying more than you need to for your electricity and gas. By reviewing your bill, I can help you find better rates with companies like Xcel Energy and Puget Sound Energy. There’s no cost or obligation. Simply reply with your WhatsApp number to begin. Regards, Your Energy Savings Consultant.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "The email uses the offer of a free utility bill review to obtain personal information, which is a common tactic in phishing attacks."
+        }
+    },
+    {
+        "question": "Subject: Free Utility Bill Review – Discover Possible Savings! Hi Sophie, Many people are paying more for their energy services than necessary. I offer a free review of your recent electricity and gas bills to help you identify potential savings. If you provide me with your latest bill, I can help you find better rates with companies like Pacific Gas and Electric and CenterPoint. Reply with your WhatsApp contact to start. Best wishes, Energy Bill Advisor.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "This email tries to collect personal information by offering a free bill review, a tactic frequently used in phishing schemes."
+        }
+    },
+    {
+        "question": "Subject: Get a Free Review of Your Utility Bills Today! Dear Alice, I’m offering a no-cost review of your recent electricity and gas bills. Many individuals unknowingly overpay for their energy needs. By analyzing your bill, I can help you find better rates with providers like Avangrid and Eversource. To get started, simply reply with your WhatsApp number. There’s no cost or obligation involved. Warm regards, Energy Consultant.",
+        "answer": {
+            "spam": true,
+            "spam_type": "CNS",
+            "explanation": "The email is designed to collect personal information under the pretense of offering a free utility bill review, a common phishing tactic."
+        }
     }
-
 ]
