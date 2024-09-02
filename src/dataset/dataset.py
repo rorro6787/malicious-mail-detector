@@ -1,11 +1,11 @@
 
-def process_dataset(file_path: str):
+def process_dataset():
     from datasets import Dataset
     import os
     
     cd = os.getcwd()
 
-    data = create_dataset(file_path)
+    data = create_dataset(os.path.join(cd, "dataset.txt"))
 
     # Create Dataset with combined 'text' field
     dataset = Dataset.from_dict({
@@ -30,10 +30,8 @@ def create_dataset(file_path: str):
 
 
 if __name__ == '__main__':
-    # Ruta del archivo .txt
-    file_path = '/home/rorro3382/Desktop/Universidad/4Carrera/malicious-mail-detector/src/dataset/dataset.txt'
 
-    res = process_dataset(file_path)
+    res = process_dataset()
 
     print(res)
     print(res[0])
