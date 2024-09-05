@@ -5,3 +5,8 @@ src/yolov8s.pt
 src/llama-2-7b-finetuned.zip
 src/llama-2-7b-finetuned
 log.json
+Outputs/
+src/__pycache__/
+processed/
+llama-2-7b-finetuned.zip
+llama-2-7b-finetuned

@@ -9,21 +9,11 @@ import os
 from playsound import playsound
 from werkzeug.utils import secure_filename
 # from image_processing import process_image  # Assume you have this function to handle image processing
-from src.malicious_mail_detector import test_model
+from src.malicious_mail_detector import test_model, load_model
 import gdown
 import zipfile
 
-cd = os.getcwd()
-
-if not os.path.exists(f"{cd}/llama-2-7b-finetuned.zip"):
-    print(f"{cd}/llama-2-7b-finetuned.zip does not exist. Downloading...")
-    # Download the model file from Google Drive
-    gdown.download("https://drive.google.com/uc?export=download&id=1CAxDA973J2XoUWpc30tmHIPL31I9O9AS", "llama-2-7b-finetuned.zip", quiet=False)
-    os.makedirs(os.path.join(cd, "llama-2-7b-finetuned"))
-    with zipfile.ZipFile(f"{cd}/llama-2-7b-finetuned.zip", 'r') as zip_ref:
-        zip_ref.extractall(os.path.join(cd, "llama-2-7b-finetuned"))
-else:
-    print(f"{cd}/llama-2-7b-finetuned.zip already exists. Skipping download.")
+load_model()
 
 app = Flask(__name__)
 app.config['PROCESSED_FOLDER'] = 'processed'
@@ -123,8 +113,6 @@ def process_extra():
     time.sleep(10)
 
     return render_template('index.html')
-
-
 
 @app.route('/display/<path:filename>')
 def display_image(filename):
