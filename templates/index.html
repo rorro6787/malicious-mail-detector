@@ -13,12 +13,13 @@
             <h1 class="display-4 mb-4 text-blue">Image Description for Visually Impaired</h1>
         </div>
 
-        <form id="uploadForm" action="/" method="POST" enctype="multipart/form-data" class="text-center mb-5">
+        <form id="uploadForm" action="/" method="POST" class="text-center mb-5">
             <div class="input-group mb-3">
-                <input type="file" class="form-control bg-input-dark text-light" name="file" id="inputFile" required>
-                <button class="btn btn-orange" type="submit">Upload Image</button>
+                <input type="text" class="form-control bg-input-dark text-light" name="inputText" id="inputText" placeholder="Enter your text here" required>
+                <button class="btn btn-orange" type="submit">Submit Text</button>
             </div>
         </form>
+        
 
         <!-- Loading Spinner -->
         <div id="loadingSpinner" class="text-center" style="display: none;">
@@ -33,22 +34,7 @@
             Processing complete!
         </div>
 
-        {% if original_image %}
-        <div class="image-panel d-flex justify-content-center mb-5">
-            <div class="image-container mx-2">
-                <img src="{{ url_for('display_image', filename=original_image) }}" alt="Original Image" class="img-fluid rounded">
-                <p class="text-center mt-2 text-orange">Original Image</p>
-            </div>
-            <div class="image-container mx-2">
-                <img src="{{ url_for('display_image', filename=depth_image) }}" alt="Depth Image" class="img-fluid rounded">
-                <p class="text-center mt-2 text-orange">Depth Image</p>
-            </div>
-            <div class="image-container mx-2">
-                <img src="{{ url_for('display_image', filename=objects_image) }}" alt="Objects Image" class="img-fluid rounded">
-                <p class="text-center mt-2 text-orange">Objects & Bounding Boxes</p>
-            </div>
-        </div>
-        
+        {% if description %}
         <div class="description-container text-center">
             <h5 class="mb-3 text-white time-heading">Total time of execution was: {{ totalTime }} seconds</h5>
         </div>
@@ -56,12 +42,23 @@
         <div class="description-container text-center">
             <h2 class="mb-3 text-white description-heading">Description</h2>
             <p class="lead description-text" id="description">{{ description }}</p>
-            <!-- New form for additional processing -->
+
+            {% if spam_type == "CPU" %}
+            <div class="status-box spam">
+                <p class="status-text">No GPU found</p>
+            </div>
+            {% else %}
+            <div class="status-box not-spam">
+                <p class="status-text">This is not SPAM</p>
+            </div>
+            {% endif %}
+
+            <!-- New form for additional processing 
             <form id="extraProcessingForm" action="/process_extra" method="POST" class="btn btn-orange text-light spaced-button">
                 <button class="btn btn-primary" type="submit">Read Description Aloud</button>
             </form>
+            -->
         </div>
-        
         {% endif %}
     </div>
 

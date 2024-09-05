@@ -10,8 +10,7 @@ from playsound import playsound
 from werkzeug.utils import secure_filename
 # from image_processing import process_image  # Assume you have this function to handle image processing
 from src.malicious_mail_detector import test_model, load_model
-import gdown
-import zipfile
+import ast
 
 load_model()
 
@@ -29,7 +28,9 @@ def allowed_file(filename):
 def index():
     global description
     if request.method == 'POST':
+        """
         file = request.files['file']
+        
         if file and allowed_file(file.filename):
             filename = secure_filename(file.filename)
             file_path = os.path.join(app.config['PROCESSED_FOLDER'], filename)
@@ -44,6 +45,21 @@ def index():
                                    objects_image=objects_image_path,
                                    description=description,
                                    totalTime = totalTime)
+        """
+        input_text = request.form['inputText']
+        if input_text:
+            process_input, totalTime = test_model(input_text)
+            
+            process_imput_dic = ast.literal_eval(process_input)
+            print(process_imput_dic['explanation'])
+            return render_template('index.html',
+                                    description=process_imput_dic['explanation'],
+                                    totalTime = totalTime,
+                                    spam=process_imput_dic['spam'],
+                                    spam_type=process_imput_dic['spam_type']
+                                )
+        
+        return render_template('index.html')
     
     return render_template('index.html')
 

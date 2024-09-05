@@ -17,6 +17,8 @@ def load_model():
         print(f"{cd}/llama-2-7b-finetuned.zip already exists. Skipping download.")
 
 def test_model(prompt: str):
+    import time
+    startTime = time.time()
     from transformers import AutoModelForCausalLM, AutoTokenizer
     import torch
     import os
@@ -44,11 +46,11 @@ def test_model(prompt: str):
         random4 = "{'spam': True, 'spam_type': 'CPU', 'explanation': 'This email falsely confirms a rental of office equipment and provides a link to download an invoice. It is likely a scam to gather personal information or deliver malware.'}"
         random5 = "{'spam': True, 'spam_type': 'CPU', 'explanation': 'The email falsely claims to have a video of you in your home and threatens to release it unless a payment is made, a common extortion tactic.'}"
         random6 = "{'spam': True, 'spam_type': 'CPU', 'explanation': 'The email attempts to collect personal information by offering a free analysis of your energy bill, which is a common method used by scammers.'}"
-        random7 = "{'spam': True, 'spam_type': 'CPU', 'explanation': 'The URL uses a deceptive TLD '.zip' to trick users into thinking it's a legitimate YourBank link.'}"
+        random7 = "{'spam': True, 'spam_type': 'CPU', 'explanation': 'The URL uses a deceptive TLD .zip to trick users into thinking it is a legitimate YourBank link.'}"
         randoms = [random1, random2, random3, random4, random5, random6, random7]
-        
+        totalTime = time.time() - startTime
         import random
-        return random.choice(randoms)
+        return random.choice(randoms), totalTime
 
     model.to(device)
 
@@ -60,11 +62,13 @@ def test_model(prompt: str):
       generated_text = result[0]['generated_text']
       generated_answer = generated_text.replace(f"<s>[INST] {prompt} [/INST]", "").strip()
       process_generated_answer = re.search(r'\{[^{}]*\}', generated_answer).group(0)
-      return process_generated_answer
+      totalTime = time.time() - startTime
+      return process_generated_answer, totalTime
 
     except Exception as e:
       print(f"An error occurred: {e}")
-      return "{'spam': False, 'spam_type': '', 'explanation': ''}"
+      totalTime = time.time() - startTime
+      return "{'spam': False, 'spam_type': '', 'explanation': ''}", totalTime
 
 if __name__ == '__main__':
     #load_model()
