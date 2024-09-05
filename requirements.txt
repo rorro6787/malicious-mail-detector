@@ -4,3 +4,8 @@ torchaudio==2.3.1
 gdown==5.2.0
 datasets==2.21.0
 transformers==4.44.2
+pyttsx3==2.91
+webcolors==24.8.0
+Flask==3.0.3
+gTTS
+playsound

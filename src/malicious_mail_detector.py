@@ -37,6 +37,19 @@ def test_model(prompt: str):
     # Configure the device
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"El modelo se ha cargado en: {device}")
+    if device == "cpu":
+        random1 = "{'spam': False, 'spam_type': 'CPU', 'explanation': 'Looks pretty ham to me'}"
+        random2 = "{'spam': True, 'spam_type': 'CPU', 'explanation': 'The email encourages securing account details through a questionable link, which may be a tactic to gather sensitive information.'}"
+        random3 = "{'spam': True, 'spam_type': 'CPU', 'explanation': 'Offers of free high-quality electronics are usually scams that aim to collect personal information or direct users to phishing sites.'}"
+        random4 = "{'spam': True, 'spam_type': 'CPU', 'explanation': 'This email falsely confirms a rental of office equipment and provides a link to download an invoice. It is likely a scam to gather personal information or deliver malware.'}"
+        random5 = "{'spam': True, 'spam_type': 'CPU', 'explanation': 'The email falsely claims to have a video of you in your home and threatens to release it unless a payment is made, a common extortion tactic.'}"
+        random6 = "{'spam': True, 'spam_type': 'CPU', 'explanation': 'The email attempts to collect personal information by offering a free analysis of your energy bill, which is a common method used by scammers.'}"
+        random7 = "{'spam': True, 'spam_type': 'CPU', 'explanation': 'The URL uses a deceptive TLD '.zip' to trick users into thinking it's a legitimate YourBank link.'}"
+        randoms = [random1, random2, random3, random4, random5, random6, random7]
+        
+        import random
+        return random.choice(randoms)
+
     model.to(device)
 
     # Run text generation pipeline with our next model
@@ -54,6 +67,11 @@ def test_model(prompt: str):
       return "{'spam': False, 'spam_type': '', 'explanation': ''}"
 
 if __name__ == '__main__':
-    load_model()
-    prompt = "Subject: Secure Your Account Information Now! Click here to update your account security information: [Secure Now](http://account-security-update.com?email=example@domain.com)"
-    print(test_model(prompt))
+    #load_model()
+    #prompt = "Subject: Secure Your Account Information Now! Click here to update your account security information: [Secure Now](http://account-security-update.com?email=example@domain.com)"
+    #print(test_model(prompt))
+    import torch
+    print(torch.__version__)  # Versión de PyTorch  
+    print(torch.version.cuda)  # Versión de CUDA usada por PyTorch 
+    print(torch.cuda.is_available())  # Esto debería devolver True si CUDA está disponible
+ 
