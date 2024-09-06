@@ -94,19 +94,21 @@ To use the system for generating mail analysis, follow these instructions:
      python app.py
      ```
 
-4. **Run the Application (2)**: To use the application using docker, first you need to have build the image, then run it:
-     ```sh
-     docker build -t your_image_name .
-     docker run --gpus all -p 5000:5000 your_image_name # If you did not configure the drivers use 'docker run -it -p 5000:5000 your_image_name'
-     ```
+4. **Run the Application (2)**: To use the application with Docker, proceed to the next section of the README, where everything is explained in detail.
 
-4. **View and save results**: By default, we specified that the service would be deployed on your localhost at port 5000. Copy this into your browser, and you can then use the application without any issues. When you use the app and upload any image you will see a result similar to this:
+4. **View and save results**: By default, we specified that the service would be deployed on your localhost at port 5000. Copy this into your browser, and you can then use the application without any issues. When you use the app and upload any email you will see a result similar to this:
+<div align="center">
+    <p>
+      <a href="https://github.com/rorro6787/rorro6787/blob/main/Images/si.png" target="_blank">
+        <img width="100%" src="https://github.com/rorro6787/rorro6787/blob/main/Images/si.png" alt="Red Abstracta"></a>
+    </p>
+  </div>
   
 ## Docker Deployment
 If you have Docker installed on your system and configured everything related to the Nvidia drivers and prefer not to install all the dependencies and the specific Python version required to test this app, you can use Docker to run the app in a lightweight virtual environment. The project includes a Dockerfile that processes all the necessary requirements and creates a Docker image of a virtual machine that fulfills all the dependencies and runs the project perfectly. Simply run the following commands:
-```ssh
+```sh
 docker build -t your_image_name .
-docker run --gpus all -p 5000:5000 your_image_name 
+docker run --gpus all -p 5000:5000 your_image_name # If you did not configure the drivers use 'docker run -it -p 5000:5000 your_image_name'
 ```
 
 ## Contributors
@@ -126,4 +128,4 @@ Contributions are welcome! Please follow these steps:
 
 ## Acknowledgements
 
-- Inspired by the latest advancements in computer vision and natural language processing.
+- Inspired by several youtube tutorials and the latest advancements in natural language processing.
