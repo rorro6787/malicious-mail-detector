@@ -1,16 +1,20 @@
 /* Color Palette */
 body {
-    background-color: #0d1117; /* Dark background with a hint of navy */
+    background-color: #505C86; /* Dark background with a hint of navy */
     color: #c9d1d9; /* Light gray text */
     font-family: 'Arial', sans-serif;
 }
 
+html {
+    background-color: #505C86;
+}
+
 .text-blue {
-    color: #58a6ff; /* Rich Blue */
+    color: darkblue; /* Rich Blue */
 }
 
 .text-white {
-    color: #f0f6fc; /* Soft White */
+    color: black; /* Soft White */
 }
 
 .text-orange {
@@ -28,13 +32,13 @@ body {
 }
 
 .bg-input-dark {
-    background-color: #161b22; /* Darker background for input fields */
+    background-color: #0d1117; /* Darker background for input fields */
     border: 1px solid #30363d;
     color: #c9d1d9;
 }
 
 .bg-input-dark::file-selector-button {
-    background-color: #30363d;
+    background-color: white;
     color: #c9d1d9;
 }
 
@@ -62,7 +66,7 @@ body {
 }
 
 .description-heading {
-    font-size: 1.8rem;
+    font-size: 2.8rem;
     font-weight: 600;
     color: #1e90ff;
     text-transform: uppercase;
@@ -98,3 +102,67 @@ body {
 .spaced-button {
     margin-bottom: 30px; /* Adjust the space below the button */
 }
+
+.boton-no-funcional {
+    background-color: red; /* Color azul */
+    color: white; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    font-family: Arial, sans-serif; /* Fuente */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: not-allowed; /* Indicador de que no es clickeable */
+    width: 310px; /* Ancho del "botón" */
+    user-select: none; /* Evita que se seleccione el texto */
+}
+
+.boton-no-funcional2 {
+    background-color: red; /* Color azul */
+    color: white; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    font-family: Arial, sans-serif; /* Fuente */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: not-allowed; /* Indicador de que no es clickeable */
+    width: 150px; /* Ancho del "botón" */
+    user-select: none; /* Evita que se seleccione el texto */
+}
+
+.boton-no-funcional3 {
+    background-color: green; /* Color azul */
+    color: white; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    font-family: Arial, sans-serif; /* Fuente */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: not-allowed; /* Indicador de que no es clickeable */
+    width: 150px; /* Ancho del "botón" */
+    user-select: none; /* Evita que se seleccione el texto */
+}
+  
+.boton-no-funcional:hover {
+    background-color: crimson; /* Cambio de color al pasar el mouse */
+}
+
+.boton-no-funcional2:hover {
+    background-color: crimson; /* Cambio de color al pasar el mouse */
+}
+
+.boton-no-funcional3:hover {
+    background-color: chartreuse; /* Cambio de color al pasar el mouse */
+}
+
+.centered-button-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    height: 100%;            /* Asegura que ocupe todo el espacio disponible */
+}
+
+
+

@@ -54,7 +54,7 @@ def index():
             print(process_imput_dic['explanation'])
             return render_template('index.html',
                                     description=process_imput_dic['explanation'],
-                                    totalTime = totalTime,
+                                    totalTime = round(totalTime, 2),
                                     spam=process_imput_dic['spam'],
                                     spam_type=process_imput_dic['spam_type']
                                 )
