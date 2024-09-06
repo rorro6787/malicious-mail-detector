@@ -22,7 +22,7 @@ The objective of this project is to develop a system that detects malicious emai
 - **Real-Time Processing**: Generates immediate descriptions through real-time image processing.
 - **Evaluation Scripts**: Includes tools for assessing the quality and accuracy of generated descriptions.
 - **Flask Application**: Provides a web interface for users to interact with the system, submit images for analysis, and receive detailed descriptions of the visual content in real-time.
-- **Documentation**: Detailed PDF explaining the implementation and code in the following link [Download the PDF document](https://github.com/rorro6787/img-desc-visually-impaired/blob/main/Project_Documentation.pdf)
+- **Documentation**: Detailed PDF explaining the implementation and code in the following link [Download the PDF document](https://github.com/rorro6787/malicious-mail-detector/blob/main/Project_Documentation.pdf)
 
 ## Requirements
 
