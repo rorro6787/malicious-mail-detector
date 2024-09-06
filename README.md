@@ -128,4 +128,4 @@ Contributions are welcome! Please follow these steps:
 
 ## Acknowledgements
 
-- Inspired by several youtube tutorials and the latest advancements in natural language processing.
+Inspired by several youtube tutorials and the latest advancements in natural language processing.
