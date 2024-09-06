@@ -1,29 +1,24 @@
-# Usar una imagen base de Python
-FROM python:3.10.14-slim
+# Change it to the version that is compatible with your Nvidia drivers
+FROM nvidia/cuda:11.7.1-base-ubuntu20.04
 
-# Install system dependencies
-RUN apt-get update && apt-get install -y \
-    libgl1-mesa-glx \
-    libglib2.0-0 \
-    && rm -rf /var/lib/apt/lists/*
-
-# Create a symlink for /usr/bin/python3 if it's not there (maybe a solution????)
-RUN ln -s $(which python3) /usr/bin/python3
-
-# Establecer el directorio de trabajo en la imagen de Docker
 WORKDIR /app
 
-# Copiar el archivo de requisitos a la imagen de Docker
-COPY requirements.txt .
+RUN apt-get update && \
+    apt-get install -y \
+    python3-pip \
+    python3-dev \
+    && rm -rf /var/lib/apt/lists/*
 
-# Instalar las dependencias
-RUN pip install --no-cache-dir -r requirements.txt
+# Change it to the version that is compatible with your Nvidia drivers
+RUN pip3 install torch==1.13.1+cu117 \
+                torchvision==0.14.1+cu117 \
+                torchaudio==0.13.1+cu117 \
+                --extra-index-url https://download.pytorch.org/whl/cu117
 
-# Copiar el código fuente del proyecto a la imagen de Docker, incluyendo la carpeta adicional
-COPY . .
+COPY . /app
 
-# Exponer el puerto que usará la aplicación
+RUN pip3 install --no-cache-dir -r requirements.txt
+
 EXPOSE 5000
 
-# Comando por defecto para ejecutar la aplicación
-CMD ["python", "app.py"]
+CMD ["python3", "app.py"]

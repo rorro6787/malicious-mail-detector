@@ -1,10 +1,4 @@
 # Malicious Mail Detector
-<div align="center">
-  <p>
-    <a href="https://media.licdn.com/dms/image/D4E12AQHnLknj0EYfBA/article-cover_image-shrink_600_2000/0/1684267676484?e=2147483647&v=beta&t=PrMj5CmpRsqMecZwmySc3LSnQ9jkZNoer75YWJFzJBM" target="_blank">
-      <img width="100%" src="https://media.licdn.com/dms/image/D4E12AQHnLknj0EYfBA/article-cover_image-shrink_600_2000/0/1684267676484?e=2147483647&v=beta&t=PrMj5CmpRsqMecZwmySc3LSnQ9jkZNoer75YWJFzJBM" alt="LangChain banner"></a>
-  </p>
-</div>
 <p align="center">
   <img src="https://github.com/meta-llama/llama3/blob/main/Llama3_Repo.jpeg" width="400"/>
 </p>
@@ -54,8 +48,7 @@ The objective of this project is to develop a system that detects malicious emai
 3. (Optional) Create a virtual environment:
 
     ```sh
-    sudo apt-get install python3.10-venv
-    python3.10 -m venv venv
+    python3 -m venv venv
     .\venv\Scripts\activate  # On macOS/Linux use 'source venv/bin/activate'
     ```
 
@@ -78,22 +71,22 @@ The objective of this project is to develop a system that detects malicious emai
     pip freeze > requirements.txt
     ```
 
-## Docker Deployment
-If you have Docker installed on your system and prefer not to install all the dependencies and the specific Python version required to test this app, you can use Docker to run the app in a lightweight virtual environment. The project includes a Dockerfile that processes all the necessary requirements and creates a Docker image of a virtual machine that fulfills all the dependencies and runs the project perfectly. Simply run the following commands:
-```ssh
-docker build -t mi_proyecto:latest .
-docker run -it -p 5000:5000 mi_proyecto
-```
-
 ## Usage
 
 To use the system for generating mail analysis, follow these instructions:
 
-1. **Configure the apikeys.txt**: Outside the src folder, you need to create an apikeys.txt file where you will insert your OpenAI API key. This step is mandatory; if not done, the application will not work. Your apikeys.txt has to look like this:
+1. **Configure your Nvidia Drivers**: First of all you need to configure the Nvidia drivers in your system. If your computer does not support Nvidia drivers you can simply skip this part (take into account that the system without the Nvidia drivers does not work and it would simply create a random answer). Once you have configured it, you will need to configure the following lines in the Dockerfile:
 
-     ```sh
-     openai: <your-api-key>
-     ```
+    ```sh
+     # Change it to the version that is compatible with your Nvidia drivers
+    FROM nvidia/cuda:11.7.1-base-ubuntu20.04
+
+    # Change it to the version that is compatible with your Nvidia drivers
+    RUN pip3 install torch==1.13.1+cu117 \
+                     torchvision==0.14.1+cu117 \
+                     torchaudio==0.13.1+cu117 \
+                     --extra-index-url https://download.pytorch.org/whl/cu117
+    ```
 
 3. **Run the Application (1)**: To use the application, first run the app.py script that hosts the service in your localhost (in case you want to use the virtual environment):
 
@@ -101,14 +94,20 @@ To use the system for generating mail analysis, follow these instructions:
      python app.py
      ```
 
-4. **Run the Application (2)**: To use the application using docker, first you need to have build the image, then:
+4. **Run the Application (2)**: To use the application using docker, first you need to have build the image, then run it:
      ```sh
-     docker run -it -p 5000:5000 mi_proyecto
+     docker build -t your_image_name .
+     docker run --gpus all -p 5000:5000 your_image_name # If you did not configure the drivers use # On macOS/Linux use docker run -it -p 5000:5000 your_image_name 
      ```
 
 4. **View and save results**: By default, we specified that the service would be deployed on your localhost at port 5000. Copy this into your browser, and you can then use the application without any issues. When you use the app and upload any image you will see a result similar to this:
   
-  
+## Docker Deployment
+If you have Docker installed on your system and configured everything related to the Nvidia drivers and prefer not to install all the dependencies and the specific Python version required to test this app, you can use Docker to run the app in a lightweight virtual environment. The project includes a Dockerfile that processes all the necessary requirements and creates a Docker image of a virtual machine that fulfills all the dependencies and runs the project perfectly. Simply run the following commands:
+```ssh
+docker build -t your_image_name .
+docker run --gpus all -p 5000:5000 your_image_name 
+```
 
 ## Contributors
 
