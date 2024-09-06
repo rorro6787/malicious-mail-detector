@@ -97,7 +97,7 @@ To use the system for generating mail analysis, follow these instructions:
 4. **Run the Application (2)**: To use the application using docker, first you need to have build the image, then run it:
      ```sh
      docker build -t your_image_name .
-     docker run --gpus all -p 5000:5000 your_image_name # If you did not configure the drivers use # On macOS/Linux use docker run -it -p 5000:5000 your_image_name 
+     docker run --gpus all -p 5000:5000 your_image_name # If you did not configure the drivers use 'docker run -it -p 5000:5000 your_image_name'
      ```
 
 4. **View and save results**: By default, we specified that the service would be deployed on your localhost at port 5000. Copy this into your browser, and you can then use the application without any issues. When you use the app and upload any image you will see a result similar to this:
