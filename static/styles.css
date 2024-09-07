@@ -21,20 +21,68 @@ html {
     color: #f78166; /* Vibrant Orange */
 }
 
-.btn-orange {
-    background-color: #f78166; /* Vibrant Orange */
+/* Container for the title */
+.title-container {
+    padding: 20px; /* Add padding around the container */
+    margin-bottom: 40px; /* Separate from other elements */
+    background-color: #333; /* Background color to distinguish */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center align the text */
+}
+
+/* Título principal */
+.title-heading {
+    font-family: SpaceGrotesk-Light;
+    color: #e0e0e0; /* Softer color to blend with the container */
+    line-height: 1.2;
+    font-weight: 400; /* Slightly lighter weight */
+    font-size: 48px; /* Slightly smaller font size */
+    margin: 0; /* Remove bottom margin from title itself */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Subtle text shadow */
+}
+
+/* Línea divisoria */
+.title-separator {
     border: none;
-    color: #0d1117;
+    border-top: 2px solid #6c757d; /* Línea gris oscuro */
+    margin: 30px 0; /* Espacio encima y debajo de la línea */
+    width: 80%; /* Ancho de la línea */
+    margin-left: auto; /* Centramos horizontalmente */
+    margin-right: auto;
+}
+
+
+
+.btn-orange {
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Improved gradient */
+    border: none;
+    color: #ffffff;
+    border-radius: 8px; /* More rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    transition: background 0.3s, box-shadow 0.3s, transform 0.3s; /* Smooth transitions */
+    padding: 12px 24px; /* Adjust padding to increase height */
+    transform: scale(1.30) translateX(16px);
+
 }
 
 .btn-orange:hover {
-    background-color: #ff9b6b;
+    background: linear-gradient(135deg, #8e2de2, #4a00e0); /* Improved hover gradient */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); /* Slightly deeper shadow on hover */
+    transform: scale(1.40) translateX(15px); /* Slight scale up and move right on hover */
+}
+
+/* Ajuste de separación entre el input y el botón */
+.input-group .form-control {
+    margin-right: 1px; /* Espacio a la derecha del input */
 }
 
 .bg-input-dark {
     background-color: #0d1117; /* Darker background for input fields */
     border: 1px solid #30363d;
     color: #c9d1d9;
+    padding: 10px; /* Añadido padding para mejorar usabilidad */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombras internas */
 }
 
 .bg-input-dark::file-selector-button {
@@ -89,6 +137,7 @@ html {
     line-height: 1.6;
     text-align: justify;
     margin-top: 20px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); /* Sombra suave */
 }
 
 .centered-container {
@@ -103,58 +152,44 @@ html {
     margin-bottom: 30px; /* Adjust the space below the button */
 }
 
-.boton-no-funcional {
-    background-color: red; /* Color azul */
-    color: white; /* Texto blanco */
+.boton-no-funcional, .boton-no-funcional2, .boton-no-funcional3 {
+    color: white;
     padding: 10px 20px; /* Espaciado interno */
-    text-align: center; /* Centrar texto */
+    text-align: center;
     border-radius: 5px; /* Bordes redondeados */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
-    font-family: Arial, sans-serif; /* Fuente */
-    font-size: 16px; /* Tamaño de fuente */
-    cursor: not-allowed; /* Indicador de que no es clickeable */
-    width: 310px; /* Ancho del "botón" */
-    user-select: none; /* Evita que se seleccione el texto */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    cursor: not-allowed;
+    user-select: none;
+    transition: background-color 0.3s ease; /* Efecto suave */
+}
+
+.boton-no-funcional {
+    background-color: red; /* Rojo */
+    width: 310px; /* Botón más ancho */
 }
 
 .boton-no-funcional2 {
-    background-color: red; /* Color azul */
-    color: white; /* Texto blanco */
-    padding: 10px 20px; /* Espaciado interno */
-    text-align: center; /* Centrar texto */
-    border-radius: 5px; /* Bordes redondeados */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
-    font-family: Arial, sans-serif; /* Fuente */
-    font-size: 16px; /* Tamaño de fuente */
-    cursor: not-allowed; /* Indicador de que no es clickeable */
-    width: 150px; /* Ancho del "botón" */
-    user-select: none; /* Evita que se seleccione el texto */
+    background-color: red;
+    width: 150px; /* Botón más estrecho */
 }
 
 .boton-no-funcional3 {
-    background-color: green; /* Color azul */
-    color: white; /* Texto blanco */
-    padding: 10px 20px; /* Espaciado interno */
-    text-align: center; /* Centrar texto */
-    border-radius: 5px; /* Bordes redondeados */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
-    font-family: Arial, sans-serif; /* Fuente */
-    font-size: 16px; /* Tamaño de fuente */
-    cursor: not-allowed; /* Indicador de que no es clickeable */
-    width: 150px; /* Ancho del "botón" */
-    user-select: none; /* Evita que se seleccione el texto */
+    background-color: green;
+    width: 150px;
 }
-  
+
 .boton-no-funcional:hover {
     background-color: crimson; /* Cambio de color al pasar el mouse */
 }
 
 .boton-no-funcional2:hover {
-    background-color: crimson; /* Cambio de color al pasar el mouse */
+    background-color: crimson;
 }
 
 .boton-no-funcional3:hover {
-    background-color: chartreuse; /* Cambio de color al pasar el mouse */
+    background-color: chartreuse;
 }
 
 .centered-button-container {
@@ -164,5 +199,16 @@ html {
     height: 100%;            /* Asegura que ocupe todo el espacio disponible */
 }
 
+/* Loading Spinner */
+#loadingSpinner .spinner-border {
+    color: #f78166; /* Spinner del color vibrante naranja */
+}
 
-
+/* Mensaje de Éxito */
+#successMessage {
+    background-color: #81C784;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}

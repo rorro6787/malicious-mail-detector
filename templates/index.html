@@ -1,101 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Description for Visually Impaired</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Malicious Mail Detector</title>
+
+<!-- Importando Material Design Bootstrap y Material Icons -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.20.0/css/mdb.min.css" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+<!-- <style>
+    body {
+        background-color: #f5f5f5;
+        font-family: 'Roboto', sans-serif;
+    }
+    .container {
+        margin-top: 50px;
+        background-color: #ffffff;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .text-blue {
+        color: #1E88E5;
+    }
+    .btn-orange {
+        background-color: #FF7043;
+        color: white;
+    }
+    .btn-orange:hover {
+        background-color: #ff5722;
+    }
+    .input-group .form-control {
+        border-radius: 4px;
+        box-shadow: none;
+        border: 1px solid #ced4da;
+    }
+    .spinner-border {
+        color: #FF7043;
+    }
+    .boton-no-funcional, .boton-no-funcional2, .boton-no-funcional3 {
+        padding: 10px;
+        border-radius: 4px;
+        background-color: #EEEEEE;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+    .boton-no-funcional {
+        color: #757575;
+    }
+    .boton-no-funcional2 {
+        color: #d32f2f;
+    }
+    .boton-no-funcional3 {
+        color: #388e3c;
+    }
+    .time-heading {
+        color: #616161;
+    }
+    .lead.description-text {
+        font-size: 1.1rem;
+        color: #424242;
+    }
+    .centered-button-container {
+        margin-top: 20px;
+    }
+    .spaced-button {
+        margin-top: 20px;
+    }
+    #successMessage {
+        background-color: #81C784;
+    }
+</style> -->
+
 </head>
 <body>
-    <div class="container mt-5">
+<div class="container">
+    <div class="title-container">
         <div class="text-center">
-            <h1 class="display-4 mb-4 text-blue">Malicuous Mail Detector</h1>
+            <h1 class="title-heading">Malicious Mail Detector</h1>
         </div>
+    </div>
+    
+    
 
-        <form id="uploadForm" action="/" method="POST" class="text-center mb-5">
-            <div class="input-group mb-3">
-                <input type="text" class="form-control bg-input-dark" name="inputText" id="inputText" placeholder="Enter your mail here" required>
-                <button class="btn btn-orange" type="submit">Submit Text</button>
+    <form id="uploadForm" action="/" method="POST" class="text-center mb-5">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" name="inputText" id="inputText" placeholder="Enter your mail here" required>
+            <button class="btn btn-orange" type="submit">Submit Text</button>
+        </div>
+    </form>
+
+    <!-- Loading Spinner -->
+    <div id="loadingSpinner" class="text-center" style="display: none;">
+        <div class="spinner-border text-orange" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <p class="mt-2 text-dark">Processing, please wait...</p>
+    </div>
+
+    <!-- Success Message -->
+    <div id="successMessage" class="alert alert-success text-center" role="alert" style="display: none;">
+        Processing complete!
+    </div>
+
+    {% if description %}
+    <div class="description-container text-center">
+        <h5 class="mb-3 text-dark time-heading">Total time of execution was: {{ totalTime }} seconds</h5>
+    </div>
+
+    <div class="description-container text-center">
+        {% if spam_type == "CPU" %}
+            <div class="centered-button-container">
+                <div class="boton-no-funcional">
+                    No GPU in System (Random Answer)
+                </div>
             </div>
-        </form>
-        
-
-        <!-- Loading Spinner -->
-        <div id="loadingSpinner" class="text-center" style="display: none;">
-            <div class="spinner-border text-orange" role="status">
-                <span class="visually-hidden">Loading...</span>
-            </div>
-            <p class="mt-2 text-light">Processing, please wait...</p>
-        </div>
-
-        <!-- Success Message -->
-        <div id="successMessage" class="alert alert-success text-center" role="alert" style="display: none;">
-            Processing complete!
-        </div>
-
-        {% if description %}
-        <div class="description-container text-center">
-            <h5 class="mb-3 text-white time-heading">Total time of execution was: {{ totalTime }} seconds</h5>
-        </div>
-
-        <div class="description-container text-center">
-            {% if spam_type == "CPU" %}
+        {% else %}
+            {% if spam %}
                 <div class="centered-button-container">
-                    <div class="boton-no-funcional">
-                        No GPU in System (Random Answer)
+                    <div class="boton-no-funcional2">
+                        SPAM: {{ spam_type }}
                     </div>
                 </div>
             {% else %}
-                {% if spam %}
-                    <div class="centered-button-container">
-                        <div class="boton-no-funcional2">
-                            SPAM: {{ spam_type }}
-                        </div>
+                <div class="centered-button-container">
+                    <div class="boton-no-funcional3">
+                        HAM!!
                     </div>
-                {% else %}
-                    <div class="centered-button-container">
-                        <div class="boton-no-funcional3">
-                            HAM!!
-                        </div>
-                    </div>
-                {% endif %}
+                </div>
             {% endif %}
-            {% if not spam %}
-                <p class="lead description-text" id="description">Looks pretty ham to me</p>
-            {% else %}
-                <p class="lead description-text" id="description">{{ description }}</p>
-            {% endif %}
-
-            
-
-            <!-- New form for additional processing 
-            <form id="extraProcessingForm" action="/process_extra" method="POST" class="btn btn-orange text-light spaced-button">
-                <button class="btn btn-primary" type="submit">Read Description Aloud</button>
-            </form>
-            -->
-        </div>
+        {% endif %}
+        {% if not spam %}
+            <p class="lead description-text" id="description">Looks pretty ham to me</p>
+        {% else %}
+            <p class="lead description-text" id="description">{{ description }}</p>
         {% endif %}
     </div>
+    {% endif %}
+</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-    <script>
-        document.getElementById('uploadForm').addEventListener('submit', function() {
-            // Show loading spinner
-            document.getElementById('loadingSpinner').style.display = 'block';
-            // Hide success message initially
-            document.getElementById('successMessage').style.display = 'none';
-        });
+<!-- MDB and Bootstrap JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.20.0/js/mdb.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 
-        window.addEventListener('load', function() {
-            if (document.getElementById('original_image')) {
-                // Hide loading spinner
-                document.getElementById('loadingSpinner').style.display = 'none';
-                // Show success message
-                document.getElementById('successMessage').style.display = 'block';
-            }
-        });
-    </script>
+<script>
+    document.getElementById('uploadForm').addEventListener('submit', function() {
+        // Show loading spinner
+        document.getElementById('loadingSpinner').style.display = 'block';
+        // Hide success message initially
+        document.getElementById('successMessage').style.display = 'none';
+    });
+
+    window.addEventListener('load', function() {
+        if (document.getElementById('original_image')) {
+            // Hide loading spinner
+            document.getElementById('loadingSpinner').style.display = 'none';
+            // Show success message
+            document.getElementById('successMessage').style.display = 'block';
+        }
+    });
+</script>
 </body>
 </html>
