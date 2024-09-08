@@ -177,6 +177,7 @@ form.text-center {
 
 .boton-no-funcional, .boton-no-funcional2, .boton-no-funcional3 {
     color: white;
+    background: linear-gradient(135deg, #171717, red);
     padding: 10px 20px; /* Espaciado interno */
     text-align: center;
     border-radius: 5px; /* Bordes redondeados */
@@ -205,10 +206,12 @@ form.text-center {
 
 .boton-no-funcional:hover {
     background-color: crimson; /* Cambio de color al pasar el mouse */
+    background: linear-gradient(135deg, #171717, crimson);
 }
 
 .boton-no-funcional2:hover {
     background-color: crimson;
+    background: linear-gradient(135deg, #171717, crimson);
 }
 
 .boton-no-funcional3:hover {
