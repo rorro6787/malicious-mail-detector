@@ -42,7 +42,7 @@ def index():
         input_subject = request.form['subject']
         input_text = request.form['inputText']
         if input_text:
-            prompt = f"Sender: {input_sender}Subject: {input_subject}{input_text}"
+            prompt = f"Sender: {input_sender}\nSubject: {input_subject}\n{input_text}"
             process_input, totalTime = test_model(prompt)
             
             process_imput_dic = ast.literal_eval(process_input)
