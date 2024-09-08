@@ -87,19 +87,20 @@
     
 <!-- Combined form for E-mail, Subject, and Sender -->
 <form id="uploadForm" action="/" method="POST" class="text-center mb-5">
-    <!-- This part is for the E-mail -->
-    <div class="input-group mb-3">
-        <input type="text" class="form-control" name="inputText" id="inputText" placeholder="Enter your mail here" required>
+    
+     <!-- This part is for the Sender -->
+     <div class="input-group mb-3">
+        <input type="text" class="form-control" name="sender" id="sender" placeholder="Enter the sender(s) here" required>
     </div>
-
     <!-- This part is for the Subject -->
     <div class="input-group mb-3">
         <input type="text" class="form-control" name="subject" id="subject" placeholder="Enter the subject of the e-mail here" required>
     </div>
 
-    <!-- This part is for the Sender -->
+    <!-- This part is for the E-mail -->
+
     <div class="input-group mb-3">
-        <input type="text" class="form-control" name="sender" id="sender" placeholder="Enter the sender(s) here" required>
+        <input type="text" class="form-control" name="inputText" id="inputText" placeholder="Enter your mail here" required>
     </div>
 
     <!-- Single Submit button -->
@@ -145,6 +146,7 @@
                 </div>
             {% endif %}
         {% endif %}
+        <p class="lead description-text2" id="description">Sender: {{ sender }}<br>Subject: {{ subject }}<br>{{ mail }}</p>
         <p class="lead description-text2" id="description">{{ prompt }}</p>
         {% if not spam %}
             <p class="lead description-text" id="description">Looks pretty ham to me</p>

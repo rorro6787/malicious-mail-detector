@@ -38,9 +38,11 @@ def index():
                                    description=description,
                                    totalTime = totalTime)
         """
+        input_sender = request.form['sender']
+        input_subject = request.form['subject']
         input_text = request.form['inputText']
         if input_text:
-            prompt = input_text
+            prompt = f"Sender: {input_sender}Subject: {input_subject}{input_text}"
             process_input, totalTime = test_model(prompt)
             
             process_imput_dic = ast.literal_eval(process_input)
@@ -50,7 +52,9 @@ def index():
                                     totalTime = round(totalTime, 2),
                                     spam=process_imput_dic['spam'],
                                     spam_type=process_imput_dic['spam_type'],
-                                    prompt=prompt
+                                    sender = input_sender,
+                                    subject= input_subject,
+                                    mail= input_text
                                 )
         
         return render_template('index.html')
@@ -60,3 +64,8 @@ def index():
 if __name__ == '__main__':
     # app.run(debug=True)
     app.run(host="0.0.0.0", debug=True)
+
+
+
+
+
