@@ -85,15 +85,26 @@
         </div>
     </div>
     
-    
+<!-- Combined form for E-mail, Subject, and Sender -->
+<form id="uploadForm" action="/" method="POST" class="text-center mb-5">
+    <!-- This part is for the E-mail -->
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" name="inputText" id="inputText" placeholder="Enter your mail here" required>
+    </div>
 
-    <form id="uploadForm" action="/" method="POST" class="text-center mb-5">
-        <div class="input-group mb-3">
-            <input type="text" class="form-control" name="inputText" id="inputText" placeholder="Enter your mail here" required>
-            <button class="btn btn-orange" type="submit">Submit Text</button>
-        </div>
-    </form>
+    <!-- This part is for the Subject -->
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" name="subject" id="subject" placeholder="Enter the subject of the e-mail here" required>
+    </div>
 
+    <!-- This part is for the Sender -->
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" name="sender" id="sender" placeholder="Enter the sender(s) here" required>
+    </div>
+
+    <!-- Single Submit button -->
+    <button class="btn btn-orange" type="submit">Submit</button>
+</form>
     <!-- Loading Spinner -->
     <div id="loadingSpinner" class="text-center" style="display: none;">
         <div class="spinner-border text-orange" role="status">
