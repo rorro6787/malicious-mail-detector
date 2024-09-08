@@ -40,7 +40,8 @@ def index():
         """
         input_text = request.form['inputText']
         if input_text:
-            process_input, totalTime = test_model(input_text)
+            prompt = input_text
+            process_input, totalTime = test_model(prompt)
             
             process_imput_dic = ast.literal_eval(process_input)
             print(process_imput_dic['explanation'])
@@ -48,7 +49,8 @@ def index():
                                     description=process_imput_dic['explanation'],
                                     totalTime = round(totalTime, 2),
                                     spam=process_imput_dic['spam'],
-                                    spam_type=process_imput_dic['spam_type']
+                                    spam_type=process_imput_dic['spam_type'],
+                                    prompt=prompt
                                 )
         
         return render_template('index.html')
