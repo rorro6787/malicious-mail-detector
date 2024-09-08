@@ -99,8 +99,8 @@ To use the system for generating mail analysis, follow these instructions:
 4. **View and save results**: By default, we specified that the service would be deployed on your localhost at port 5000. Copy this into your browser, and you can then use the application without any issues. When you use the app and upload any email you will see a result similar to this:
 <div align="center">
     <p>
-      <a href="https://github.com/rorro6787/rorro6787/blob/main/Images/si.png" target="_blank">
-        <img width="100%" src="https://github.com/rorro6787/rorro6787/blob/main/Images/si.png" alt="Red Abstracta"></a>
+      <a href="https://github.com/rorro6787/rorro6787/blob/main/Images/resultbueno.png" target="_blank">
+        <img width="100%" src="https://github.com/rorro6787/rorro6787/blob/main/Images/resultbueno.png" alt="Red Abstracta"></a>
     </p>
   </div>
   
