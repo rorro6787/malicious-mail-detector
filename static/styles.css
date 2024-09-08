@@ -72,12 +72,13 @@ form.text-center {
     transition: background 0.3s, box-shadow 0.3s, transform 0.3s; /* Smooth transitions */
     padding: 12px 24px; /* Adjust padding to increase height */
     margin-top: 20px; /* Add margin to separate from inputs */
+    transform: scale(1.25)
 }
 
 .btn-orange:hover {
-    background: linear-gradient(135deg, #8e2de2, #4a00e0); /* Improved hover gradient */
+    background: linear-gradient(135deg, #11222c, #2065e0); /* Improved hover gradient */
     box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); /* Slightly deeper shadow on hover */
-    transform: scale(1.05) translateX(10px); /* Slight scale up and move right on hover */
+    transform: scale(1.35) translateX(5px); /* Slight scale up and move right on hover */
 }
 
 /* Ajuste de separación entre el input y el botón */
