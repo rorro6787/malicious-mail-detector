@@ -55,7 +55,14 @@ html {
     margin-right: auto;
 }
 
+/* Center the submit button */
+.d-flex {
+    display: flex;
+}
 
+.justify-content-center {
+    justify-content: center;
+}
 
 .btn-orange {
     background: linear-gradient(135deg, #6a11cb, #2575fc); /* Improved gradient */
