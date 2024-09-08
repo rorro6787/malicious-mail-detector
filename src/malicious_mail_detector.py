@@ -25,20 +25,10 @@ def test_model(prompt: str):
     import re
     from transformers import pipeline
 
-    cd = os.getcwd()
-
-    # Path where you saved the model and tokenizer
-    model_path = os.path.join(cd, "llama-2-7b-finetuned")
-
-    # Download the fine-tuned model from your local machine
-    model = AutoModelForCausalLM.from_pretrained(model_path, torch_dtype=torch.float16)
-
-    # Download the fine-tuned tokenizer from your local machine
-    tokenizer = AutoTokenizer.from_pretrained(model_path)
-
     # Configure the device
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"El modelo se ha cargado en: {device}")
+    print(device == "cpu")
     if device == "cpu":
         random1 = "{'spam': False, 'spam_type': 'CPU', 'explanation': 'Looks pretty ham to me'}"
         random2 = "{'spam': True, 'spam_type': 'CPU', 'explanation': 'The email encourages securing account details through a questionable link, which may be a tactic to gather sensitive information.'}"
@@ -51,6 +41,17 @@ def test_model(prompt: str):
         totalTime = time.time() - startTime
         import random
         return random.choice(randoms), totalTime
+
+    cd = os.getcwd()
+
+    # Path where you saved the model and tokenizer
+    model_path = os.path.join(cd, "llama-2-7b-finetuned")
+
+    # Download the fine-tuned model from your local machine
+    model = AutoModelForCausalLM.from_pretrained(model_path, torch_dtype=torch.float16)
+
+    # Download the fine-tuned tokenizer from your local machine
+    tokenizer = AutoTokenizer.from_pretrained(model_path)
 
     model.to(device)
 

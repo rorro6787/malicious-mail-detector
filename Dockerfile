@@ -5,6 +5,7 @@ WORKDIR /app
 
 RUN apt-get update && \
     apt-get install -y \
+    nano \
     python3-pip \
     python3-dev \
     && rm -rf /var/lib/apt/lists/*
